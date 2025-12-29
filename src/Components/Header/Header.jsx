@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import logoVideo from '../../assets/logo.mp4'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -23,15 +23,15 @@ const Header = () => {
                         </svg>
                     </button>
                     <div className="dropdown-content">
-                        <a href="#">Swarna Bharathi Vidyamandir</a>
-                        <a href="#">Residential Bridge School</a>
-                        <a href="#">SIRED - Rural Entrepreneurship</a>
-                        <a href="#">SOMA - Skill Development</a>
-                        <a href="#">Elders Home</a>
-                        <a href="#">Farmers Training Center</a>
-                        <a href="#">LV Prasad Eye Institute</a>
-                        <a href="#">Veterinary Hospital</a>
-                        <a href="#">Rural Health & Dental Care</a>
+                        <Link to="/services/swarna-bharathi-vidyamandir">Swarna Bharathi Vidyamandir</Link>
+                        <Link to="/services/residential-bridge-school">Residential Bridge School</Link>
+                        <Link to="/services/sired">SIRED - Rural Entrepreneurship</Link>
+                        <Link to="/services/soma">SOMA - Skill Development</Link>
+                        <Link to="/services/elders-home">Elders Home</Link>
+                        <Link to="/services/farmers-training-center">Farmers Training Center</Link>
+                        <Link to="/services/lv-prasad-eye-institute">LV Prasad Eye Institute</Link>
+                        <Link to="/services/veterinary-hospital">Veterinary Hospital</Link>
+                        <Link to="/services/rural-health-dental-care">Rural Health & Dental Care</Link>
                     </div>
                 </div>
                 <div className="custom-dropdown">
@@ -79,15 +79,15 @@ const Header = () => {
                     <div className="mega-menu-section">
                         <h6 className="mega-menu-title">Our Services</h6>
                         <ul className="mega-menu-list">
-                            <li><a href="#">Swarna Bharathi Vidyamandir</a></li>
-                            <li><a href="#">Residential Bridge School</a></li>
-                            <li><a href="#">SIRED - Rural Entrepreneurship</a></li>
-                            <li><a href="#">SOMA - Skill Development</a></li>
-                            <li><a href="#">Elders Home</a></li>
-                            <li><a href="#">Farmers Training Center</a></li>
-                            <li><a href="#">LV Prasad Eye Institute</a></li>
-                            <li><a href="#">Veterinary Hospital</a></li>
-                            <li><a href="#">Rural Health & Dental Care</a></li>
+                            <li><Link to="/services/swarna-bharathi-vidyamandir">Swarna Bharathi Vidyamandir</Link></li>
+                            <li><Link to="/services/residential-bridge-school">Residential Bridge School</Link></li>
+                            <li><Link to="/services/sired">SIRED - Rural Entrepreneurship</Link></li>
+                            <li><Link to="/services/soma">SOMA - Skill Development</Link></li>
+                            <li><Link to="/services/elders-home">Elders Home</Link></li>
+                            <li><Link to="/services/farmers-training-center">Farmers Training Center</Link></li>
+                            <li><Link to="/services/lv-prasad-eye-institute">LV Prasad Eye Institute</Link></li>
+                            <li><Link to="/services/veterinary-hospital">Veterinary Hospital</Link></li>
+                            <li><Link to="/services/rural-health-dental-care">Rural Health & Dental Care</Link></li>
                         </ul>
                     </div>
 

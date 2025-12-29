@@ -1,6 +1,7 @@
 import React from 'react'
 import './HomeServices.css'
 import { GraduationCap, School, Briefcase, Users, Home, Sprout, Eye, Heart, Stethoscope, ArrowRight } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 const HomeServices = () => {
   const services = [
@@ -9,63 +10,72 @@ const HomeServices = () => {
       title: 'Swarna Bharathi Vidyamandir',
       description: 'Providing quality education and nurturing young minds for a brighter future.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop'
+      image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop',
+      link: '/services/swarna-bharathi-vidyamandir'
     },
     {
       icon: <School size={40} />,
       title: 'Residential Bridge School',
       description: 'Bridging educational gaps through comprehensive residential programs.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&h=400&fit=crop'
+      image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&h=400&fit=crop',
+      link: '/services/residential-bridge-school'
     },
     {
       icon: <Briefcase size={40} />,
       title: 'SIRED - Rural Entrepreneurship',
       description: 'Empowering rural communities through entrepreneurship development.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&h=400&fit=crop'
+      image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&h=400&fit=crop',
+      link: '/services/sired'
     },
     {
       icon: <Users size={40} />,
       title: 'SOMA - Skill Development',
       description: 'Building technical expertise and professional skills for career growth.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop'
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop',
+      link: '/services/soma'
     },
     {
       icon: <Home size={40} />,
       title: 'Elders Home',
       description: 'Providing compassionate care and comfortable living for elderly members.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=600&h=400&fit=crop'
+      image: 'https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=600&h=400&fit=crop',
+      link: '/services/elders-home'
     },
     {
       icon: <Sprout size={40} />,
       title: 'Farmers Training Center',
       description: 'Supporting agriculture through modern farming techniques and training.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop'
+      image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop',
+      link: '/services/farmers-training-center'
     },
     {
       icon: <Eye size={40} />,
       title: 'LV Prasad Eye Institute',
       description: 'Delivering world-class eye care services and vision correction.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1516841273335-e39b37888115?w=600&h=400&fit=crop'
+      image: 'https://images.unsplash.com/photo-1516841273335-e39b37888115?w=600&h=400&fit=crop',
+      link: '/services/lv-prasad-eye-institute'
     },
     {
       icon: <Heart size={40} />,
       title: 'Veterinary Hospital',
       description: 'Comprehensive animal health care for animal wellbeing.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1548681528-6a5c45b66b42?w=600&h=400&fit=crop'
+      image: 'https://images.unsplash.com/photo-1548681528-6a5c45b66b42?w=600&h=400&fit=crop',
+      link: '/services/veterinary-hospital'
     },
     {
       icon: <Stethoscope size={40} />,
       title: 'Rural Health & Dental Care',
       description: 'Accessible healthcare and dental services for rural communities.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop'
+      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop',
+      link: '/services/rural-health-dental-care'
     }
   ]
 
@@ -101,10 +111,10 @@ const HomeServices = () => {
               <div className="service-content">
                 <h3 className="service-title">{service.title}</h3>
                 <p className="service-description">{service.description}</p>
-                <button className="service-link">
+                <Link to={service.link} className="service-link">
                   Explore More
                   <ArrowRight size={18} className="arrow-icon" />
-                </button>
+                </Link>
               </div>
             </div>
           ))}

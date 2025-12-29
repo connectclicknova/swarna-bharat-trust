@@ -11,6 +11,18 @@ import VideoGallery from './Pages/Gallery/VideoGallery'
 import Loader from './Components/Loader/Loader'
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
 import FounderPage from './Pages/FounderPage/FounderPage'
+import SwarnaBharathiVidyamandir from './Pages/Services/SwarnaBharathiVidyamandir/SwarnaBharathiVidyamandir'
+import ResidentialBridgeSchool from './Pages/Services/ResidentialBridgeSchool/ResidentialBridgeSchool'
+import SIRED from './Pages/Services/SIRED/SIRED'
+import SOMA from './Pages/Services/SOMA/SOMA'
+import EldersHome from './Pages/Services/EldersHome/EldersHome'
+import FarmersTrainingCenter from './Pages/Services/FarmersTrainingCenter/FarmersTrainingCenter'
+import LVPrasadEyeInstitute from './Pages/Services/LVPrasadEyeInstitute/LVPrasadEyeInstitute'
+import VeterinaryHospital from './Pages/Services/VeterinaryHospital/VeterinaryHospital'
+import RuralHealthDentalCare from './Pages/Services/RuralHealthDentalCare/RuralHealthDentalCare'
+
+// Import all 9 service pages
+
 
 const AppContent = () => {
   const [loading, setLoading] = useState(true)
@@ -47,6 +59,17 @@ const AppContent = () => {
         <Route path='/image-gallery' element={<ImageGallery />} />
         <Route path='/video-gallery' element={<VideoGallery />} />
         <Route path='/founder' element={<FounderPage />} />
+        
+        {/* Service Pages */}
+        <Route path='/services/swarna-bharathi-vidyamandir' element={<SwarnaBharathiVidyamandir />} />
+        <Route path='/services/residential-bridge-school' element={<ResidentialBridgeSchool />} />
+        <Route path='/services/sired' element={<SIRED />} />
+        <Route path='/services/soma' element={<SOMA />} />
+        <Route path='/services/elders-home' element={<EldersHome />} />
+        <Route path='/services/farmers-training-center' element={<FarmersTrainingCenter />} />
+        <Route path='/services/lv-prasad-eye-institute' element={<LVPrasadEyeInstitute />} />
+        <Route path='/services/veterinary-hospital' element={<VeterinaryHospital />} />
+        <Route path='/services/rural-health-dental-care' element={<RuralHealthDentalCare />} />
       </Routes>
       <Footer />
     </>

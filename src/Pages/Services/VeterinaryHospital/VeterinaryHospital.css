@@ -1,0 +1,396 @@
+@keyframes vetFadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes vetSlideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes vetSlideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.vet-service-page {
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+.vet-service-hero {
+  background: linear-gradient(135deg, #372035 0%, #4a2f47 100%);
+  padding: 80px 0;
+  animation: vetFadeInUp 0.8s ease-out;
+}
+
+.vet-service-hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.vet-service-hero-text {
+  animation: vetSlideInLeft 0.8s ease-out 0.2s both;
+}
+
+.vet-service-hero-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.vet-service-hero-text p {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+}
+
+.vet-service-hero-carousel {
+  animation: vetSlideInRight 0.8s ease-out 0.4s both;
+}
+
+.vet-service-content {
+  max-width: 1200px;
+  margin: -60px auto 0;
+  padding: 0 20px 80px;
+  position: relative;
+  z-index: 2;
+}
+
+.vet-service-content-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.vet-service-main-content {
+  background: #fff;
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  animation: vetFadeInUp 0.8s ease-out 0.6s both;
+}
+
+.vet-service-main-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #372035;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.vet-service-main-content h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #ff6318, #ff8c4a);
+  border-radius: 2px;
+}
+
+.vet-service-main-content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #372035;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.vet-service-main-content p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.vet-service-main-content ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.vet-service-main-content ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+.vet-service-main-content ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  background: #ff6318;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.vet-service-main-content ul li:hover {
+  color: #ff6318;
+  transform: translateX(5px);
+}
+
+.vet-service-main-content ul li:hover::before {
+  transform: scale(1.3);
+  box-shadow: 0 0 10px rgba(255, 99, 24, 0.5);
+}
+
+.vet-service-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.vet-sidebar-card {
+  background: #fff;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  animation: vetFadeInUp 0.8s ease-out 0.8s both;
+  transition: all 0.3s ease;
+}
+
+.vet-sidebar-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.vet-sidebar-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #372035;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.vet-sidebar-card h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 3px;
+  background: #ff6318;
+  border-radius: 2px;
+}
+
+.vet-sidebar-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.vet-sidebar-card ul li {
+  padding: 12px 0;
+  font-size: 1rem;
+  color: #555;
+  border-bottom: 1px solid #f0f0f0;
+  transition: all 0.3s ease;
+}
+
+.vet-sidebar-card ul li:last-child {
+  border-bottom: none;
+}
+
+.vet-sidebar-card ul li:hover {
+  color: #ff6318;
+  padding-left: 10px;
+}
+
+.vet-sidebar-card ul li strong {
+  color: #372035;
+  font-weight: 600;
+}
+
+.vet-contact-card {
+  background: linear-gradient(135deg, #ff6318 0%, #ff8c4a 100%);
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(255, 99, 24, 0.3);
+  animation: vetFadeInUp 0.8s ease-out 1s both;
+}
+
+.vet-contact-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.vet-contact-card p {
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 25px;
+  font-size: 1.05rem;
+}
+
+.vet-cta-button {
+  background: #fff;
+  color: #ff6318;
+  border: none;
+  padding: 14px 35px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.vet-cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  background: #f8f8f8;
+}
+
+.vet-service-features {
+  background: #fff;
+  padding: 80px 0;
+}
+
+.vet-service-features h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #372035;
+  margin-bottom: 60px;
+  animation: vetFadeInUp 0.8s ease-out;
+}
+
+.vet-features-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.vet-feature-card {
+  background: #f8f9fa;
+  padding: 45px 35px;
+  border-radius: 16px;
+  text-align: center;
+  transition: all 0.4s ease;
+  animation: vetFadeInUp 0.8s ease-out both;
+  border: 2px solid transparent;
+}
+
+.vet-feature-card:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.vet-feature-card:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.vet-feature-card:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.vet-feature-card:hover {
+  transform: translateY(-10px);
+  background: #fff;
+  box-shadow: 0 10px 40px rgba(255, 99, 24, 0.15);
+  border-color: #ff6318;
+}
+
+.vet-feature-card svg {
+  color: #ff6318;
+  margin-bottom: 25px;
+  transition: all 0.4s ease;
+}
+
+.vet-feature-card:hover svg {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.vet-feature-card h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #372035;
+  margin-bottom: 15px;
+}
+
+.vet-feature-card p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #666;
+}
+
+@media (max-width: 992px) {
+  .vet-service-hero-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .vet-service-content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vet-features-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .vet-service-hero-text h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .vet-service-hero {
+    padding: 60px 0;
+  }
+
+  .vet-service-main-content {
+    padding: 35px 25px;
+  }
+
+  .vet-sidebar-card {
+    padding: 25px;
+  }
+
+  .vet-service-hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .vet-service-features h2 {
+    font-size: 2rem;
+  }
+}
