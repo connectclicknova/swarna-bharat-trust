@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home'
 import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer'
 import Contact from './Pages/Contact/Contact'
+import About from './Pages/About/About'
 import ImageGallery from './Pages/Gallery/ImageGallery'
 import VideoGallery from './Pages/Gallery/VideoGallery'
 import Loader from './Components/Loader/Loader'
@@ -40,6 +41,7 @@ const AppContent = () => {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/image-gallery' element={<ImageGallery />} />
         <Route path='/video-gallery' element={<VideoGallery />} />
