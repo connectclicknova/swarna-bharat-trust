@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+:root {
+
+  --font: "Sora", sans-serif;
+
+
+  --primary-blue: #2122be;
+  --primary-safron: #ff6318;
+  --primary-green: #04a947;
+  --white: #ffffff;
+
+}
