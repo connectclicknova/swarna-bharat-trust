@@ -42,10 +42,11 @@ const Header = () => {
                         </svg>
                     </button>
                     <div className="dropdown-content">
-                        <a href="#">Campus Tour</a>
-                        <a href="#">Facilities</a>
-                        <a href="#">Infrastructure</a>
-                        <a href="#">Hostel</a>
+                        <a href="#">Swarna Bharat Trust</a>
+                        <a href="#">Nellore</a>
+                        <a href="#">Vijayawada</a>
+                        <a href="#">Hyderabad</a>
+                        <a href="#">CSR</a>
                     </div>
                 </div>
                 <div className="custom-dropdown">
@@ -58,10 +59,9 @@ const Header = () => {
                     <div className="dropdown-content">
                         <a href="#">Photo Gallery</a>
                         <a href="#">Video Gallery</a>
-                        <a href="#">Events</a>
-                        <a href="#">Achievements</a>
                     </div>
                 </div>
+                <NavLink to="/contact">Contact</NavLink>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-bs-toggle="offcanvas" data-bs-target="#megaMenuModal" style={{cursor: 'pointer'}}>
                     <path d="M3 12H21M3 6H21M9 18H21" stroke="#372035" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
