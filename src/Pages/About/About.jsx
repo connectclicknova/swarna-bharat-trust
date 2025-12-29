@@ -65,11 +65,11 @@ const About = () => {
           </div>
 
           {/* Timeline Section */}
-          <div className="timeline-section">
+          <div className="timeline-section about-tl-section">
             {/* Story 1 - Left */}
             <div className="timeline-item left">
               <div className="timeline-marker"></div>
-              <div className="timeline-content">
+              <div className="timeline-content about-tl-con">
                 <div className="timeline-text">
                   <h3>The Journey</h3>
                   <p>
@@ -85,7 +85,7 @@ const About = () => {
             {/* Story 2 - Right */}
             <div className="timeline-item right">
               <div className="timeline-marker"></div>
-              <div className="timeline-content">
+              <div className="timeline-content about-tl-con">
                 <div className="timeline-text">
                   <h3>Rural India: The Heart of Our Nation</h3>
                   <p>
@@ -101,7 +101,7 @@ const About = () => {
             {/* Story 3 - Left */}
             <div className="timeline-item left">
               <div className="timeline-marker"></div>
-              <div className="timeline-content">
+              <div className="timeline-content about-tl-con">
                 <div className="timeline-text">
                   <h3>Commitment to Rural Development</h3>
                   <p>
@@ -117,7 +117,7 @@ const About = () => {
             {/* Story 4 - Right */}
             <div className="timeline-item right">
               <div className="timeline-marker"></div>
-              <div className="timeline-content">
+              <div className="timeline-content about-tl-con">
                 <div className="timeline-text">
                   <h3>Inspiration from Great Leaders</h3>
                   <p>
@@ -133,7 +133,7 @@ const About = () => {
             {/* Story 5 - Left */}
             <div className="timeline-item left">
               <div className="timeline-marker"></div>
-              <div className="timeline-content">
+              <div className="timeline-content about-tl-con">
                 <div className="timeline-text">
                   <h3>The Birth of Swarna Bharat</h3>
                   <p>
@@ -149,7 +149,7 @@ const About = () => {
             {/* Story 6 - Right */}
             <div className="timeline-item right">
               <div className="timeline-marker"></div>
-              <div className="timeline-content">
+              <div className="timeline-content about-tl-con">
                 <div className="timeline-text">
                   <h3>Our Inspiration & Support</h3>
                   <p>
@@ -165,7 +165,7 @@ const About = () => {
             {/* Story 7 - Left */}
             <div className="timeline-item left">
               <div className="timeline-marker"></div>
-              <div className="timeline-content">
+              <div className="timeline-content about-tl-con">
                 <div className="timeline-text">
                   <h3>Independent & Impactful</h3>
                   <p>

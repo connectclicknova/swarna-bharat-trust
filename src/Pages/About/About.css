@@ -203,6 +203,14 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 0;
+
+    &.about-tl-section {
+        background: none;
+
+        &::before {
+            top: 0;
+        }
+    }
 }
 
 .timeline-section::before {
@@ -252,6 +260,10 @@
 
 .timeline-content {
     max-width: 550px;
+
+    &.about-tl-con {
+        padding: 0 !important;
+    }
 }
 
 .timeline-item.left .timeline-content {
