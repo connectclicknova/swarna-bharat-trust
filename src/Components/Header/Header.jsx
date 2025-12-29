@@ -6,7 +6,7 @@ import { NavLink, Link } from 'react-router-dom'
 const Header = () => {
   return (
     <div className="sb-header-container">
-        <div className="container d-flex justify-content-between align-items-center">
+        <div className="container h-100 d-flex justify-content-between align-items-center">
             <div className="header-video-container">
                 <video className="logo-video" autoPlay muted loop playsInline>
                     <source src={logoVideo} type="video/mp4" />
