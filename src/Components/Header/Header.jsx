@@ -57,8 +57,8 @@ const Header = () => {
                         </svg>
                     </button>
                     <div className="dropdown-content">
-                        <a href="#">Photo Gallery</a>
-                        <a href="#">Video Gallery</a>
+                        <a href="/image-gallery">Photo Gallery</a>
+                        <a href="/video-gallery">Video Gallery</a>
                     </div>
                 </div>
                 <NavLink to="/contact">Contact</NavLink>
