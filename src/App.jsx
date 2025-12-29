@@ -10,6 +10,7 @@ import ImageGallery from './Pages/Gallery/ImageGallery'
 import VideoGallery from './Pages/Gallery/VideoGallery'
 import Loader from './Components/Loader/Loader'
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
+import FounderPage from './Pages/FounderPage/FounderPage'
 
 const AppContent = () => {
   const [loading, setLoading] = useState(true)
@@ -45,6 +46,7 @@ const AppContent = () => {
         <Route path='/contact' element={<Contact />} />
         <Route path='/image-gallery' element={<ImageGallery />} />
         <Route path='/video-gallery' element={<VideoGallery />} />
+        <Route path='/founder' element={<FounderPage />} />
       </Routes>
       <Footer />
     </>
