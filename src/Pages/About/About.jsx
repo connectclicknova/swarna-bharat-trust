@@ -3,6 +3,7 @@ import './About.css'
 import { Link } from 'react-router-dom'
 import FounderImage from '../../assets/venkaiah-naidu.jpg'
 import Counter from '../../Components/Counter/Counter'
+import TeamMembers from '../../Components/TeamMembers/TeamMembers'
 
 const About = () => {
   return (
@@ -193,6 +194,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      <TeamMembers />
       <Counter />
     </div>
   )
