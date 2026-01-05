@@ -33,34 +33,69 @@ const VeterinaryHospital = () => {
       <section className="vet-service-content">
         <div className="vet-service-content-grid">
           <div className="vet-service-main-content">
-            <h2>About Our Veterinary Hospital</h2>
+            <h2>Comprehensive Veterinary Care for Rural Communities</h2>
             <p>
-              Our Veterinary Hospital provides comprehensive healthcare services for all types of animals,
-              from farm livestock to household pets. We are committed to improving animal health and
-              supporting farmers in maintaining healthy, productive livestock.
+              The Trust runs a <strong>FREE Veterinary Hospital</strong> dedicated to improving animal health and 
+              supporting farmers in maintaining healthy, productive livestock. We conduct regular camps for the benefit 
+              of farmers, providing services including Artificial Insemination, vaccination, and distribution of 
+              medicines - all without any charge.
             </p>
 
-            <h3>Services Offered</h3>
+            <h3>Mobile Veterinary Medical Unit</h3>
+            <p>
+              Understanding the challenges faced by farmers in remote areas, we operate a Mobile Veterinary Medical 
+              Unit that brings veterinary services directly to villages. These services are provided completely free 
+              of charge, ensuring that even the most distant communities have access to quality animal healthcare.
+            </p>
+
+            <h3>Services Offered (All FREE)</h3>
             <ul>
-              <li>General health check-ups and consultations</li>
-              <li>Vaccination and immunization programs</li>
+              <li>General health check-ups and consultations for all animals</li>
+              <li>Comprehensive vaccination and immunization programs</li>
               <li>Treatment for common diseases and infections</li>
-              <li>Surgical procedures and emergency care</li>
-              <li>Pregnancy diagnosis and obstetric care</li>
-              <li>Deworming and parasite control</li>
-              <li>Artificial insemination services</li>
+              <li>Surgical procedures and emergency veterinary care</li>
+              <li>Pregnancy diagnosis and obstetric care for livestock</li>
+              <li>Deworming and parasite control programs</li>
+              <li>Artificial Insemination services for breed improvement</li>
               <li>Laboratory diagnostic services</li>
+              <li>Distribution of medicines at no cost</li>
+            </ul>
+
+            <h3>Regular Veterinary Camps</h3>
+            <p>
+              We conduct regular veterinary camps in villages focusing on:
+            </p>
+            <ul>
+              <li>Mass vaccination drives to prevent disease outbreaks</li>
+              <li>Artificial Insemination for genetic improvement of livestock</li>
+              <li>Free distribution of medicines and supplements</li>
+              <li>Health screening of cattle, buffaloes, goats, and sheep</li>
+              <li>Expert consultation on animal health issues</li>
+              <li>Awareness programs on livestock management</li>
             </ul>
 
             <h3>Specialized Programs</h3>
             <ul>
-              <li>Free veterinary camps in villages</li>
-              <li>Livestock health management training</li>
+              <li>Livestock health management training for farmers</li>
               <li>Disease prevention awareness programs</li>
-              <li>Fodder and nutrition consultation</li>
+              <li>Fodder and nutrition consultation services</li>
               <li>Breed improvement initiatives</li>
-              <li>24/7 emergency services</li>
-              <li>Mobile veterinary units</li>
+              <li>Emergency care available for critical cases</li>
+              <li>Mobile veterinary units reaching remote villages</li>
+              <li>Collaboration with animal husbandry departments</li>
+            </ul>
+
+            <h3>Our Impact on Rural Economy</h3>
+            <p>
+              By providing free veterinary care, we help farmers:
+            </p>
+            <ul>
+              <li>Maintain healthy and productive livestock</li>
+              <li>Reduce mortality rates in animals</li>
+              <li>Increase milk and meat production</li>
+              <li>Save on veterinary expenses</li>
+              <li>Improve breeding quality through AI services</li>
+              <li>Prevent disease outbreaks through timely vaccination</li>
             </ul>
           </div>
 
@@ -68,11 +103,12 @@ const VeterinaryHospital = () => {
             <div className="vet-sidebar-card">
               <h3>Quick Facts</h3>
               <ul>
+                <li><strong>Cost:</strong> 100% FREE services</li>
                 <li><strong>Animals Treated:</strong> 5000+/year</li>
-                <li><strong>Veterinarians:</strong> 3+</li>
-                <li><strong>Camps:</strong> Bi-weekly</li>
-                <li><strong>Services:</strong> 24/7</li>
-                <li><strong>Villages:</strong> 50+</li>
+                <li><strong>Camps:</strong> Regular village visits</li>
+                <li><strong>Services:</strong> AI, Vaccination, Treatment</li>
+                <li><strong>Mobile Unit:</strong> Available</li>
+                <li><strong>Villages Served:</strong> 50+</li>
               </ul>
             </div>
 

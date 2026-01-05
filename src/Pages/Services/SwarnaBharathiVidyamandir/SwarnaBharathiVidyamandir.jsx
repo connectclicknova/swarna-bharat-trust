@@ -38,31 +38,49 @@ const SwarnaBharathiVidyamandir = () => {
       <section className="svb-service-content">
         <div className="svb-service-content-grid">
           <div className="svb-service-main-content">
-            <h2>About Our School</h2>
+            <h2>About Swarna Bharati Vidya Mandir</h2>
             <p>
-              Swarna Bharathi Vidyamandir is a premier educational institution dedicated to providing quality education
-              to children from all backgrounds. Our school focuses on holistic development, combining academic excellence
-              with character building and life skills development.
+              With an intention to reach out to small-scale farmers and low-income groups in surrounding villages 
+              of Venkatachalam, Swarna Bharat Trust has established a school with State syllabus that provides 
+              quality education to about 900+ students every year. We are committed to making education accessible 
+              and affordable while maintaining high standards of learning.
             </p>
 
-            <h3>Our Programs</h3>
+            <h3>What We Provide</h3>
             <ul>
-              <li>Primary and Secondary Education (Classes 1-10)</li>
-              <li>CBSE Curriculum with focus on practical learning</li>
-              <li>Sports and Physical Education</li>
-              <li>Arts, Music, and Cultural Activities</li>
-              <li>Computer Education and Digital Literacy</li>
-              <li>Life Skills and Personality Development</li>
+              <li>State Syllabus Education (Classes 1-10)</li>
+              <li>Nominal tuition fee up to Rs. 8,000/- per annum per child</li>
+              <li>Two sets of uniforms, socks & shoes - FREE</li>
+              <li>Books and study materials - FREE</li>
+              <li>Mid-day nutritious meal - FREE</li>
+              <li>Safe and conducive learning environment</li>
             </ul>
 
-            <h3>Key Features</h3>
+            <h3>Our Mission</h3>
+            <p>
+              We believe that quality education should not be a privilege but a right for every child. Our school 
+              is designed to provide comprehensive education to children from rural backgrounds, ensuring they receive 
+              the same opportunities as their urban counterparts. The nominal fee structure ensures that financial 
+              constraints do not become a barrier to education.
+            </p>
+
+            <h3>Academic Excellence</h3>
             <ul>
-              <li>Experienced and dedicated teaching staff</li>
-              <li>Modern infrastructure and well-equipped classrooms</li>
+              <li>Experienced and dedicated teaching faculty</li>
+              <li>Modern classrooms with learning aids</li>
+              <li>Well-equipped laboratories for practical learning</li>
               <li>Library with extensive collection of books</li>
-              <li>Science and computer laboratories</li>
-              <li>Playground and sports facilities</li>
-              <li>Regular parent-teacher meetings</li>
+              <li>Regular assessments and parent-teacher interactions</li>
+              <li>Focus on both academic and character development</li>
+            </ul>
+
+            <h3>Beyond Academics</h3>
+            <ul>
+              <li>Sports and Physical Education programs</li>
+              <li>Cultural activities and celebrations</li>
+              <li>Computer education and digital literacy</li>
+              <li>Health and hygiene awareness programs</li>
+              <li>Moral and ethical value education</li>
             </ul>
           </div>
 
@@ -70,11 +88,12 @@ const SwarnaBharathiVidyamandir = () => {
             <div className="svb-sidebar-card">
               <h3>Quick Facts</h3>
               <ul>
-                <li><strong>Established:</strong> 2010</li>
-                <li><strong>Students:</strong> 500+</li>
-                <li><strong>Teachers:</strong> 30+</li>
+                <li><strong>Students:</strong> 900+ annually</li>
+                <li><strong>Syllabus:</strong> State Board</li>
                 <li><strong>Classes:</strong> 1-10</li>
-                <li><strong>Medium:</strong> English & Telugu</li>
+                <li><strong>Medium:</strong> Telugu</li>
+                <li><strong>Fee:</strong> Up to Rs. 8,000/year</li>
+                <li><strong>Free Benefits:</strong> Uniforms, Books, Meals</li>
               </ul>
             </div>
 

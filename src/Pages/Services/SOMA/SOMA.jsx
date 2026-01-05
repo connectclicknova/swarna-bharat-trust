@@ -37,46 +37,67 @@ const SOMA = () => {
       <section className="soma-service-content">
         <div className="soma-service-content-grid">
           <div className="soma-service-main-content">
-            <h2>About SOMA</h2>
+            <h2>Swarna Bharat – SOMA Institute of Technical Training</h2>
             <p>
-              SOMA (Skill Oriented Multi Activity Centre) is our flagship skill development initiative that
-              provides vocational training and skill enhancement programs to youth and adults. We focus on
-              industry-relevant skills to improve employability and create livelihood opportunities.
+              SOMA (Skill Oriented Multi Activity Centre) is a significant initiative of Swarna Bharat Trust aimed at 
+              providing Technical Training and creating sustainable livelihood programs for rural unemployed youth who 
+              are constrained by low income, inadequate skills, unemployment, and the absence of opportunities for 
+              training, development, financial ability, and bargaining power at economic and social levels.
             </p>
 
-            <h3>Training Programs</h3>
+            <h3>State-of-the-Art Infrastructure</h3>
+            <p>
+              The infrastructure includes state-of-the-art Technical Training programs in Civil Construction, Mechanical, 
+              Electrical, Computer & Information Services, and other commercial trades for providing sustainable livelihood 
+              opportunities for aspirants. The institute accommodates 300 trainees for ten channels of different training 
+              programs in each schedule.
+            </p>
+
+            <h3>Training Programs Offered</h3>
             <ul>
-              <li>Computer and IT skills training</li>
-              <li>Tailoring and garment making</li>
-              <li>Beauty and wellness courses</li>
-              <li>Electrical and electronics repair</li>
-              <li>Plumbing and construction skills</li>
-              <li>Accounting and office management</li>
-              <li>Mobile and laptop repair</li>
-              <li>Spoken English and communication skills</li>
+              <li>Civil Construction Technology</li>
+              <li>Mechanical & Automobile Engineering</li>
+              <li>Electrical and Electronics Repair & Maintenance</li>
+              <li>Computer Hardware & Software</li>
+              <li>Tailoring and Garment Making</li>
+              <li>Beauty and Wellness Courses</li>
+              <li>Plumbing and Sanitary Works</li>
+              <li>Motor Rewinding</li>
+              <li>Mobile and Laptop Repair</li>
+              <li>Accounting and Office Management</li>
+              <li>Spoken English and Communication Skills</li>
             </ul>
 
-            <h3>Program Features</h3>
+            <h3>Complete Support During Training</h3>
             <ul>
-              <li>Industry-certified courses</li>
-              <li>Hands-on practical training</li>
-              <li>Experienced trainers and mentors</li>
-              <li>Placement assistance</li>
-              <li>Entrepreneurship support</li>
-              <li>Flexible timing options</li>
-              <li>Affordable fees with scholarships</li>
+              <li>FREE Boarding & Lodging throughout the training period</li>
+              <li>Industry-certified courses with practical training</li>
+              <li>Experienced trainers and industry experts as mentors</li>
+              <li>Modern equipment and hands-on learning facilities</li>
+              <li>Placement assistance with partner companies</li>
+              <li>Entrepreneurship support for self-employment</li>
+              <li>Flexible timing options to suit different needs</li>
             </ul>
+
+            <h3>Our Impact</h3>
+            <p>
+              SOMA Institute has successfully trained thousands of rural youth, enabling them to secure meaningful 
+              employment or start their own businesses. Our focus on practical, industry-relevant skills ensures that 
+              our graduates are job-ready from day one. The institute has become a beacon of hope for rural youth 
+              seeking to improve their economic prospects.
+            </p>
           </div>
 
           <div className="soma-service-sidebar">
             <div className="soma-sidebar-card">
               <h3>Quick Facts</h3>
               <ul>
-                <li><strong>Courses:</strong> 15+</li>
-                <li><strong>Trainees:</strong> 1000+ annually</li>
+                <li><strong>Training Channels:</strong> 10 different programs</li>
+                <li><strong>Capacity:</strong> 300 trainees per batch</li>
+                <li><strong>Courses:</strong> 15+ technical trades</li>
                 <li><strong>Duration:</strong> 3-6 months</li>
-                <li><strong>Placement:</strong> 80%</li>
-                <li><strong>Trainers:</strong> 20+</li>
+                <li><strong>Boarding:</strong> Free accommodation</li>
+                <li><strong>Placement:</strong> 80%+ success rate</li>
               </ul>
             </div>
 

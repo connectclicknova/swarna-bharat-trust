@@ -40,34 +40,55 @@ const LVPrasadEyeInstitute = () => {
       <section className="lvpei-service-content">
         <div className="lvpei-service-content-grid">
           <div className="lvpei-service-main-content">
-            <h2>About Our Eye Care Center</h2>
+            <h2>Partnership with L V Prasad Eye Institute</h2>
             <p>
-              In partnership with L V Prasad Eye Institute, we provide world-class eye care services to rural
-              communities. Our center offers comprehensive eye care from basic screening to advanced treatments,
-              making quality eye care accessible and affordable to all.
+              In partnership with the renowned L V Prasad Eye Institute of Hyderabad, we run a comprehensive Eye Hospital 
+              within our campus at Nellore. This collaboration brings world-class eye care services to rural communities, 
+              making quality eye care accessible and affordable to all who need it.
             </p>
 
-            <h3>Services Offered</h3>
+            <h3>Our Daily Impact</h3>
+            <p>
+              On an average, <strong>twelve surgeries are performed here every day</strong>. This remarkable achievement 
+              reflects our commitment to restoring the gift of sight to those in need. Medicines are provided free of 
+              charge for all patients who undergo operations, ensuring that financial constraints do not prevent anyone 
+              from receiving essential eye care.
+            </p>
+
+            <h3>Comprehensive Eye Care Services</h3>
             <ul>
-              <li>Comprehensive eye examinations</li>
-              <li>Cataract surgery and IOL implantation</li>
-              <li>Glaucoma diagnosis and treatment</li>
-              <li>Diabetic retinopathy screening</li>
-              <li>Pediatric eye care</li>
-              <li>Refractive error correction and spectacles</li>
-              <li>Corneal treatments</li>
-              <li>Low vision aids and rehabilitation</li>
+              <li>Comprehensive eye examinations by specialist ophthalmologists</li>
+              <li>Cataract surgery and IOL (Intraocular Lens) implantation</li>
+              <li>Glaucoma diagnosis, treatment, and management</li>
+              <li>Diabetic retinopathy screening and treatment</li>
+              <li>Pediatric eye care and vision screening</li>
+              <li>Refractive error correction and spectacles provision</li>
+              <li>Corneal treatments and procedures</li>
+              <li>Low vision aids and rehabilitation services</li>
+              <li>Advanced diagnostic facilities</li>
             </ul>
 
-            <h3>Special Programs</h3>
+            <h3>Special Community Programs</h3>
             <ul>
-              <li>Free eye screening camps in villages</li>
-              <li>Subsidized cataract surgeries</li>
-              <li>School eye health programs</li>
-              <li>Diabetic eye screening camps</li>
-              <li>Free spectacles for needy patients</li>
-              <li>Telemedicine consultations</li>
-              <li>Community awareness programs</li>
+              <li>Free eye screening camps in villages across the region</li>
+              <li>Subsidized cataract surgeries for the economically weaker sections</li>
+              <li>School eye health programs for early detection</li>
+              <li>Diabetic eye screening camps in collaboration with health centers</li>
+              <li>Free spectacles distribution for needy patients</li>
+              <li>Telemedicine consultations for remote areas</li>
+              <li>Community awareness programs on eye health</li>
+              <li>Preventive care education</li>
+            </ul>
+
+            <h3>Why Choose Our Eye Care Center</h3>
+            <ul>
+              <li>Association with L V Prasad Eye Institute - a world-renowned institution</li>
+              <li>State-of-the-art equipment and modern facilities</li>
+              <li>Experienced ophthalmologists and trained support staff</li>
+              <li>Free medicines for surgery patients</li>
+              <li>Affordable treatment options for rural communities</li>
+              <li>Comprehensive range of services from screening to surgery</li>
+              <li>Follow-up care and post-operative support</li>
             </ul>
           </div>
 
@@ -75,11 +96,12 @@ const LVPrasadEyeInstitute = () => {
             <div className="lvpei-sidebar-card">
               <h3>Quick Facts</h3>
               <ul>
+                <li><strong>Daily Surgeries:</strong> 12 on average</li>
+                <li><strong>Partner:</strong> L V Prasad Eye Institute</li>
+                <li><strong>Location:</strong> Nellore Campus</li>
                 <li><strong>Patients:</strong> 10,000+ annually</li>
-                <li><strong>Surgeries:</strong> 500+ per year</li>
-                <li><strong>Camps:</strong> Weekly</li>
-                <li><strong>Specialists:</strong> 5+</li>
-                <li><strong>Equipment:</strong> Modern</li>
+                <li><strong>Free Medicines:</strong> For surgery patients</li>
+                <li><strong>Camps:</strong> Regular village screenings</li>
               </ul>
             </div>
 

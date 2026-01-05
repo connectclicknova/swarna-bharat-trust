@@ -41,33 +41,52 @@ const EldersHome = () => {
       <section className="elders-service-content">
         <div className="elders-service-content-grid">
           <div className="elders-service-main-content">
-            <h2>About Our Elders Home</h2>
+            <h2>A Home Away From Home for Our Elders</h2>
             <p>
-              Our Elders Home provides a safe, comfortable, and caring environment for senior citizens who need
-              support and companionship. We ensure that our residents live with dignity, respect, and joy in
-              their golden years.
+              Understanding the need to lend emotional support to our elders, Swarna Bharat Trust in association with 
+              Bollineni Foundation has established an Elders' Home equipped with all modern facilities. It is truly 
+              a home away from home for the elderly, where their health-related issues are very well taken care of, 
+              and their emotional and spiritual needs are met with compassion and dignity.
             </p>
 
-            <h3>Facilities & Services</h3>
+            <h3>Our Commitment to Elderly Care</h3>
+            <p>
+              We provide a safe, comfortable, and caring environment for senior citizens who need support and companionship. 
+              Our mission is to ensure that our residents live with dignity, respect, and joy in their golden years, 
+              surrounded by love and professional care.
+            </p>
+
+            <h3>Facilities & Amenities</h3>
             <ul>
               <li>Comfortable accommodation with modern amenities</li>
-              <li>Nutritious meals prepared according to dietary needs</li>
-              <li>24/7 medical care and nursing support</li>
+              <li>Nutritious meals prepared according to dietary needs and preferences</li>
+              <li>24/7 medical care and professional nursing support</li>
               <li>Regular health check-ups and medication management</li>
-              <li>Physiotherapy and exercise programs</li>
-              <li>Recreation and entertainment activities</li>
-              <li>Spiritual and religious activities</li>
-              <li>Library and reading materials</li>
+              <li>Physiotherapy and daily exercise programs</li>
+              <li>Television and entertainment facilities</li>
+              <li>Well-stocked Library for reading and spiritual growth</li>
+              <li>Clean, hygienic, and well-maintained environment</li>
             </ul>
 
-            <h3>Care Approach</h3>
+            <h3>Activities & Engagement</h3>
+            <ul>
+              <li>Recreation and entertainment activities</li>
+              <li>Spiritual and religious activities</li>
+              <li>Social interaction and community events</li>
+              <li>Cultural celebrations and festivals</li>
+              <li>Gardening and light physical activities</li>
+              <li>Music, art, and creative pursuits</li>
+            </ul>
+
+            <h3>Our Care Philosophy</h3>
             <ul>
               <li>Personalized care plans for each resident</li>
-              <li>Trained and compassionate staff</li>
-              <li>Clean and hygienic environment</li>
-              <li>Regular family visits encouraged</li>
-              <li>Emergency medical support</li>
-              <li>Counseling and emotional support</li>
+              <li>Trained, compassionate, and respectful staff</li>
+              <li>Focus on physical, mental, and emotional well-being</li>
+              <li>Regular family visits encouraged and facilitated</li>
+              <li>Emergency medical support available 24/7</li>
+              <li>Counseling and emotional support when needed</li>
+              <li>Maintaining dignity and independence of residents</li>
             </ul>
           </div>
 

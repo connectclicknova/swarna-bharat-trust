@@ -35,34 +35,68 @@ const FarmersTrainingCenter = () => {
       <section className="ftc-service-content">
         <div className="ftc-service-content-grid">
           <div className="ftc-service-main-content">
-            <h2>About Our Training Center</h2>
+            <h2>Empowering Farmers Through Knowledge & Technology</h2>
             <p>
-              Our Farmers Training Center is dedicated to enhancing agricultural productivity and farmer welfare
-              through modern farming techniques, sustainable practices, and comprehensive support services. We
-              help farmers increase yields, reduce costs, and improve their livelihoods.
+              The Trust runs a comprehensive Training Centre for Farmers, conducting regular programs on modern 
+              agricultural practices, usage of pesticides, nutrition management, micro-irrigation techniques, 
+              cultivation of new varieties of crops, medicinal plants, and new technology in farming to enhance 
+              yield and improve farmers' livelihoods.
+            </p>
+
+            <h3>Our Mission</h3>
+            <p>
+              We are dedicated to enhancing agricultural productivity and farmer welfare through modern farming 
+              techniques, sustainable practices, and comprehensive support services. Our goal is to help farmers 
+              increase yields, reduce costs, improve quality, and build sustainable farming businesses.
             </p>
 
             <h3>Training Programs</h3>
             <ul>
-              <li>Modern farming techniques and best practices</li>
-              <li>Organic farming and natural agriculture</li>
-              <li>Soil health management and testing</li>
-              <li>Water conservation and irrigation methods</li>
-              <li>Integrated pest management</li>
-              <li>Crop diversification and planning</li>
-              <li>Post-harvest management and storage</li>
-              <li>Marketing and value addition</li>
+              <li>Modern farming techniques and international best practices</li>
+              <li>Proper usage of pesticides and fertilizers</li>
+              <li>Organic farming and natural agriculture methods</li>
+              <li>Soil health management, testing, and nutrient management</li>
+              <li>Micro-irrigation and water conservation methods</li>
+              <li>Cultivation of new high-yield varieties of crops</li>
+              <li>Medicinal plants cultivation and marketing</li>
+              <li>Integrated pest management techniques</li>
+              <li>Crop diversification and rotation planning</li>
+              <li>Post-harvest management and storage solutions</li>
+              <li>Value addition and agro-processing</li>
+              <li>Marketing strategies and market linkages</li>
+            </ul>
+
+            <h3>Technology & Innovation</h3>
+            <p>
+              We bring the latest technological advances in agriculture to farmers' doorsteps, including:
+            </p>
+            <ul>
+              <li>Modern irrigation systems and drip technology</li>
+              <li>Farm mechanization and equipment training</li>
+              <li>Weather forecasting and crop advisory services</li>
+              <li>Soil testing facilities and recommendations</li>
+              <li>Information on government schemes and subsidies</li>
+              <li>Digital tools for farm management</li>
             </ul>
 
             <h3>Support Services</h3>
             <ul>
-              <li>Soil testing laboratory</li>
-              <li>Demonstration plots for new techniques</li>
-              <li>Access to quality seeds and inputs</li>
-              <li>Farm mechanization support</li>
-              <li>Market linkage and price information</li>
-              <li>Expert consultation and field visits</li>
-              <li>Financial literacy and credit linkage</li>
+              <li>On-site soil testing laboratory</li>
+              <li>Demonstration plots showcasing new techniques</li>
+              <li>Access to quality seeds and organic inputs</li>
+              <li>Expert consultation and regular field visits</li>
+              <li>Market price information and linkage support</li>
+              <li>Financial literacy and credit linkage programs</li>
+              <li>Networking with agricultural universities and research centers</li>
+            </ul>
+
+            <h3>Special Initiatives</h3>
+            <ul>
+              <li>Training on alternate crops for better income</li>
+              <li>Support for artisans to become self-employed</li>
+              <li>Women farmer empowerment programs</li>
+              <li>Youth in agriculture initiatives</li>
+              <li>Farmer Producer Organization (FPO) development</li>
             </ul>
           </div>
 
@@ -70,11 +104,12 @@ const FarmersTrainingCenter = () => {
             <div className="ftc-sidebar-card">
               <h3>Quick Facts</h3>
               <ul>
-                <li><strong>Farmers:</strong> 2000+ trained</li>
-                <li><strong>Villages:</strong> 100+</li>
-                <li><strong>Programs:</strong> Monthly</li>
-                <li><strong>Experts:</strong> 10+</li>
-                <li><strong>Demo Plots:</strong> 5 acres</li>
+                <li><strong>Focus Areas:</strong> Technology & Innovation</li>
+                <li><strong>Programs:</strong> Monthly training sessions</li>
+                <li><strong>Farmers Trained:</strong> 2000+</li>
+                <li><strong>Villages Covered:</strong> 100+</li>
+                <li><strong>Services:</strong> Soil testing, Expert advice</li>
+                <li><strong>Support:</strong> Market linkage, Credit</li>
               </ul>
             </div>
 

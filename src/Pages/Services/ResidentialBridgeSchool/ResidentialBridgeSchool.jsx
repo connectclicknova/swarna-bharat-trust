@@ -39,32 +39,59 @@ const ResidentialBridgeSchool = () => {
       <section className="rbs-service-content">
         <div className="rbs-service-content-grid">
           <div className="rbs-service-main-content">
-            <h2>About the Program</h2>
+            <h2>Bringing Hope & Education to School Drop-outs</h2>
             <p>
-              Our Residential Bridge School provides comprehensive support to underprivileged children who lack
-              access to quality education and basic necessities. We offer a safe, nurturing environment where
-              children can learn, grow, and develop their full potential.
+              Under this transformative initiative, Swarna Bharat Trust takes into its care - orphans, children of 
+              single parents who have stopped attending school due to neglect and/or various unforeseen reasons, and 
+              child laborers too. Every year up to 150 children receive free food, free accommodation, and free 
+              education in this residential school within our campus.
             </p>
 
-            <h3>Services Provided</h3>
+            <h3>Our Mission</h3>
+            <p>
+              The Bridge School program identifies school drop-outs and provides educational awareness to the parents 
+              of such children. Children between the ages of 4-14 are trained according to their levels of awareness 
+              on education. The children are treated with such love & care by the teachers that they continue their 
+              education without worrying thoughts about their home.
+            </p>
+
+            <h3>What We Provide - Completely FREE</h3>
             <ul>
-              <li>Free residential accommodation</li>
-              <li>Quality education from qualified teachers</li>
-              <li>Nutritious meals (breakfast, lunch, and dinner)</li>
+              <li>Free residential accommodation in a safe, caring environment</li>
+              <li>Quality education from dedicated, compassionate teachers</li>
+              <li>Three nutritious meals daily (breakfast, lunch, and dinner)</li>
               <li>Healthcare and medical support</li>
-              <li>Clothing and school supplies</li>
-              <li>Recreational and sports activities</li>
-              <li>Counseling and mentorship programs</li>
+              <li>Clothing, school supplies, and all necessities</li>
+              <li>Recreational activities and sports facilities</li>
+              <li>Counseling and emotional support</li>
             </ul>
+
+            <h3>Our Dedicated Team</h3>
+            <ul>
+              <li>Five experienced Teachers providing quality education</li>
+              <li>One Care-taker ensuring round-the-clock well-being</li>
+              <li>One Mobilizer for community outreach</li>
+              <li>Two Cooks preparing nutritious meals</li>
+              <li>All staff members take special care of these children throughout the day</li>
+            </ul>
+
+            <h3>Success Stories</h3>
+            <p>
+              The awards that Bridge School has been bestowed with are touchstones for its style of work and delivery. 
+              Some children, upon completion of their education, have continued to study further, including pursuing 
+              Engineering degrees. These success stories inspire us to continue our mission of transforming lives 
+              through education.
+            </p>
 
             <h3>Our Approach</h3>
             <ul>
-              <li>Individual attention to each child's needs</li>
-              <li>Bridge curriculum to help children catch up academically</li>
+              <li>Individual attention to each child's unique needs</li>
+              <li>Bridge curriculum designed to help children catch up academically</li>
               <li>Life skills training and character development</li>
-              <li>Integration with mainstream schools when ready</li>
-              <li>Continuous monitoring and assessment</li>
+              <li>Preparation for integration into mainstream schools</li>
+              <li>Continuous monitoring and personalized assessment</li>
               <li>Family counseling and community engagement</li>
+              <li>Creating a loving, supportive family environment</li>
             </ul>
           </div>
 
@@ -72,11 +99,12 @@ const ResidentialBridgeSchool = () => {
             <div className="rbs-sidebar-card">
               <h3>Quick Facts</h3>
               <ul>
-                <li><strong>Capacity:</strong> 100 children</li>
-                <li><strong>Age Group:</strong> 6-14 years</li>
-                <li><strong>Duration:</strong> 1-3 years</li>
-                <li><strong>Staff:</strong> 15+ members</li>
-                <li><strong>Type:</strong> Free residential</li>
+                <li><strong>Capacity:</strong> Up to 150 children/year</li>
+                <li><strong>Age Group:</strong> 4-14 years</li>
+                <li><strong>Target:</strong> Orphans & Drop-outs</li>
+                <li><strong>Teachers:</strong> 5</li>
+                <li><strong>Support Staff:</strong> 4 (Caretaker, Mobilizer, 2 Cooks)</li>
+                <li><strong>Type:</strong> 100% Free Residential</li>
               </ul>
             </div>
 

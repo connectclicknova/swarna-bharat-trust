@@ -33,32 +33,71 @@ const SIRED = () => {
       <section className="sired-service-content">
         <div className="sired-service-content-grid">
           <div className="sired-service-main-content">
-            <h2>About SIRED</h2>
+            <h2>SIRED - Swarna Bharat Institute of Rural Entrepreneurship Development</h2>
             <p>
-              SIRED (Swarna Bharat Institute of Rural Entrepreneurship Development) is dedicated to fostering
-              entrepreneurship in rural areas. We provide training, resources, and support to help rural
-              entrepreneurs establish and grow sustainable businesses.
+              SIRED is dedicated to fostering entrepreneurship in rural areas by providing comprehensive training, 
+              resources, and support to help rural entrepreneurs establish and grow sustainable businesses. Our mission 
+              is to create economic opportunities and improve livelihoods in rural communities through entrepreneurship 
+              development.
             </p>
 
-            <h3>Our Programs</h3>
+            <h3>Our Comprehensive Approach</h3>
+            <p>
+              We work with the Rural Self Employment Training Institutes (RSETI) established to impart free training 
+              to enhance self-employment opportunities for men and women in different technical trades, repairs, and 
+              servicing. The Trust in association with GMR Varalakshmi Foundation and Union Bank (formerly Andhra Bank) 
+              makes relentless efforts in the direction of rural empowerment.
+            </p>
+
+            <h3>Vocational Training Programs (All FREE)</h3>
             <ul>
-              <li>Entrepreneurship training and workshops</li>
+              <li>Cell Phone repair and servicing</li>
+              <li>Television repair and maintenance</li>
+              <li>Air-conditioner installation and servicing</li>
+              <li>Refrigerator repair and maintenance</li>
+              <li>Motor Rewinding technology</li>
+              <li>Tailoring and Fashion design</li>
+              <li>Computer Hardware & Software training</li>
+              <li>All trainees provided FREE boarding & lodging throughout training</li>
+            </ul>
+
+            <h3>Entrepreneurship Development Programs</h3>
+            <ul>
               <li>Business planning and development support</li>
               <li>Financial literacy and management training</li>
               <li>Market linkage and networking opportunities</li>
               <li>Technology and digital literacy programs</li>
               <li>Mentorship from successful entrepreneurs</li>
               <li>Access to microfinance and funding support</li>
+              <li>The Trust becomes guarantor for bank loans for self-employment</li>
             </ul>
 
             <h3>Key Focus Areas</h3>
             <ul>
-              <li>Agriculture-based enterprises</li>
-              <li>Traditional crafts and handicrafts</li>
-              <li>Food processing and value addition</li>
-              <li>Service sector businesses</li>
-              <li>Women entrepreneurship development</li>
-              <li>Youth startup initiatives</li>
+              <li>Agriculture-based enterprises and value addition</li>
+              <li>Traditional crafts and handicrafts promotion</li>
+              <li>Food processing and agro-based industries</li>
+              <li>Service sector businesses development</li>
+              <li>Women entrepreneurship development programs</li>
+              <li>Youth startup initiatives and incubation</li>
+              <li>Skill training for sustainable employment</li>
+            </ul>
+
+            <h3>Partnership & Support</h3>
+            <p>
+              In association with GMR Varalakshmi Foundation and Union Bank, we identify self-employment avenues 
+              and impart suitable skills training to the needy. A unique feature of our program is that the Trust 
+              becomes the guarantor for bank loans if trainees desire to be self-employed, removing one of the 
+              biggest barriers to entrepreneurship.
+            </p>
+
+            <h3>Success Metrics</h3>
+            <ul>
+              <li>500+ entrepreneurs trained and supported</li>
+              <li>200+ successful businesses established</li>
+              <li>50+ villages impacted</li>
+              <li>75% success rate in business sustainability</li>
+              <li>1000+ jobs created through these enterprises</li>
             </ul>
           </div>
 
