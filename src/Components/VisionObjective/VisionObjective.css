@@ -1,0 +1,510 @@
+.vision-objective-section {
+    padding: 100px 0;
+    background: linear-gradient(to bottom, #faf8f7 0%, #ffffff 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Section Header */
+.vision-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px;
+    opacity: 0;
+}
+
+.vision-header.fade-in {
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+.vision-header .section-label {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ff6318;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+    position: relative;
+    padding: 0 24px;
+}
+
+.vision-header .section-label::before,
+.vision-header .section-label::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 16px;
+    height: 2px;
+    background: #ff6318;
+}
+
+.vision-header .section-label::before {
+    left: 0;
+}
+
+.vision-header .section-label::after {
+    right: 0;
+}
+
+.vision-header .section-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+/* Vision Container */
+.vision-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Vision Statement */
+.vision-statement {
+    background: linear-gradient(135deg, #ffffff 0%, #fafafa 100%);
+    border-radius: 24px;
+    padding: 50px;
+    margin-bottom: 80px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    border: 2px solid #f0f0f0;
+}
+
+.vision-statement.fade-in {
+    animation: fadeInUp 0.8s ease forwards 0.2s;
+}
+
+.vision-statement::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6318 0%, #04a947 50%, #2122be 100%);
+}
+
+.statement-icon {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #ff631810 0%, #ff631805 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff6318;
+    opacity: 0.6;
+}
+
+.statement-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.statement-content h3::before {
+    content: '';
+    width: 4px;
+    height: 36px;
+    background: linear-gradient(180deg, #ff6318 0%, #04a947 100%);
+    border-radius: 2px;
+}
+
+.statement-content p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+    margin: 0 0 20px 0;
+    max-width: 900px;
+}
+
+.statement-content p strong {
+    color: #ff6318;
+    font-weight: 600;
+}
+
+.vision-aim {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 20px;
+    background: linear-gradient(135deg, #04a94708 0%, #04a94703 100%);
+    border-radius: 12px;
+    border-left: 4px solid #04a947;
+    margin-top: 25px !important;
+}
+
+.vision-aim svg {
+    flex-shrink: 0;
+    margin-top: 2px;
+    color: #04a947;
+}
+
+.vision-aim span {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+}
+
+.vision-aim span strong {
+    color: #04a947;
+}
+
+/* Objectives Section */
+.objectives-section {
+    margin-top: 60px;
+}
+
+.objectives-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: center;
+    margin: 0 0 50px 0;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.objectives-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6318 0%, #04a947 50%, #2122be 100%);
+    border-radius: 2px;
+}
+
+.objectives-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+/* Objective Card */
+.objective-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 35px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s ease;
+    opacity: 0;
+    transform: translateY(30px);
+    border: 2px solid transparent;
+}
+
+.objective-card.slide-in {
+    animation: slideInUp 0.6s ease forwards;
+}
+
+.objective-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+    border-color: #f0f0f0;
+}
+
+.objective-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    transition: all 0.4s ease;
+}
+
+.objective-card:hover .objective-icon {
+    transform: translateY(-5px) rotate(-5deg);
+}
+
+.icon-wrapper {
+    transition: all 0.3s ease;
+}
+
+.objective-card:hover .icon-wrapper {
+    transform: scale(1.1);
+}
+
+.objective-content h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 16px 0;
+    line-height: 1.3;
+    transition: color 0.3s ease;
+}
+
+.objective-card:hover .objective-content h4 {
+    color: #ff6318;
+}
+
+.objective-content p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666;
+    margin: 0;
+}
+
+.objective-number {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1;
+    user-select: none;
+    transition: all 0.3s ease;
+}
+
+.objective-card:hover .objective-number {
+    transform: scale(1.1);
+    opacity: 0.3;
+}
+
+/* Decorative Elements */
+.vision-decoration {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.decoration-circle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.decoration-1 {
+    width: 500px;
+    height: 500px;
+    top: -150px;
+    right: -150px;
+    background: radial-gradient(circle, rgba(255, 99, 24, 0.04) 0%, transparent 70%);
+    animation: float 20s ease-in-out infinite;
+}
+
+.decoration-2 {
+    width: 400px;
+    height: 400px;
+    bottom: -100px;
+    left: -100px;
+    background: radial-gradient(circle, rgba(4, 169, 71, 0.04) 0%, transparent 70%);
+    animation: float 25s ease-in-out infinite reverse;
+}
+
+.decoration-3 {
+    width: 350px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle, rgba(33, 34, 190, 0.03) 0%, transparent 70%);
+    animation: pulse 15s ease-in-out infinite;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-30px) rotate(5deg);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 0.5;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        opacity: 0.8;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .vision-header .section-title {
+        font-size: 40px;
+    }
+
+    .objectives-title {
+        font-size: 32px;
+    }
+
+    .statement-icon {
+        width: 60px;
+        height: 60px;
+        top: 30px;
+        right: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .vision-objective-section {
+        padding: 60px 0;
+    }
+
+    .vision-header {
+        margin-bottom: 40px;
+    }
+
+    .vision-header .section-title {
+        font-size: 32px;
+    }
+
+    .vision-statement {
+        padding: 30px;
+        margin-bottom: 60px;
+    }
+
+    .statement-icon {
+        display: none;
+    }
+
+    .statement-content h3 {
+        font-size: 26px;
+    }
+
+    .statement-content p {
+        font-size: 15px;
+    }
+
+    .objectives-title {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .objectives-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .objective-card {
+        padding: 28px;
+    }
+
+    .objective-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .objective-content h4 {
+        font-size: 20px;
+    }
+
+    .objective-content p {
+        font-size: 14px;
+    }
+
+    .objective-number {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .vision-objective-section {
+        padding: 40px 0;
+    }
+
+    .vision-header .section-title {
+        font-size: 28px;
+    }
+
+    .vision-statement {
+        padding: 25px;
+    }
+
+    .statement-content h3 {
+        font-size: 22px;
+    }
+
+    .statement-content p {
+        font-size: 14px;
+    }
+
+    .vision-aim {
+        padding: 16px;
+    }
+
+    .vision-aim span {
+        font-size: 14px;
+    }
+
+    .objectives-title {
+        font-size: 24px;
+    }
+
+    .objective-card {
+        padding: 25px;
+    }
+
+    .objective-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .icon-wrapper svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .objective-content h4 {
+        font-size: 18px;
+    }
+
+    .objective-content p {
+        font-size: 13px;
+    }
+
+    .objective-number {
+        font-size: 50px;
+        bottom: 15px;
+        right: 20px;
+    }
+
+    .decoration-1,
+    .decoration-2,
+    .decoration-3 {
+        display: none;
+    }
+}
