@@ -13,12 +13,14 @@ const LVPrasadEyeInstitute = () => {
   ]
 
   const galleryImages = [
-    '/images/eye1.jpg',
-    '/images/eye2.jpg',
-    '/images/eye3.jpg',
-    '/images/eye4.jpg',
-    '/images/eye1.jpg',
-    '/images/eye2.jpg'
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Eye%20Hospital/1.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Eye%20Hospital/2.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Eye%20Hospital/3.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Eye%20Hospital/4.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Eye%20Hospital/5.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Eye%20Hospital/6.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Eye%20Hospital/7.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Eye%20Hospital/8.jpeg',
   ]
 
   return (
@@ -29,9 +31,9 @@ const LVPrasadEyeInstitute = () => {
             <h1>L V Prasad Eye Institute</h1>
             <p>Comprehensive eye care services bringing the gift of sight to rural communities</p>
           </div>
-          <div className="lvpei-service-hero-carousel">
+          {/* <div className="lvpei-service-hero-carousel">
             <ImageCarousel images={images} />
-          </div>
+          </div> */}
         </div>
       </section>
 

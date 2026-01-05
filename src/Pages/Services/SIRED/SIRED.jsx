@@ -12,12 +12,8 @@ const SIRED = () => {
   ]
 
   const galleryImages = [
-    '/images/sired1.jpg',
-    '/images/sired2.jpg',
-    '/images/sired3.jpg',
-    '/images/sired1.jpg',
-    '/images/sired2.jpg',
-    '/images/sired3.jpg'
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/SIERED/4.jpeg?updatedAt=1767621097899',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/SIERED/1.jpeg?updatedAt=1767621097620',
   ]
 
   return (
@@ -28,9 +24,9 @@ const SIRED = () => {
             <h1>SIRED - Rural Entrepreneurship Development</h1>
             <p>Empowering rural communities through entrepreneurship and sustainable business development</p>
           </div>
-          <div className="sired-service-hero-carousel">
+          {/* <div className="sired-service-hero-carousel">
             <ImageCarousel images={images} />
-          </div>
+          </div> */}
         </div>
       </section>
 

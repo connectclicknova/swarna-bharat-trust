@@ -13,12 +13,15 @@ const EldersHome = () => {
   ]
 
   const galleryImages = [
-    '/images/elders1.jpg',
-    '/images/elders2.jpg',
-    '/images/elders3.jpg',
-    '/images/elders4.jpg',
-    '/images/elders1.jpg',
-    '/images/elders2.jpg'
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Elder%20Home/1.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Elder%20Home/2.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Elder%20Home/3.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Elder%20Home/4.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Elder%20Home/5.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Elder%20Home/6.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Elder%20Home/7.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Elder%20Home/8.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Elder%20Home/9.jpeg',
   ]
 
   return (
@@ -29,9 +32,9 @@ const EldersHome = () => {
             <h1>Elders Home</h1>
             <p>Providing dignified living and compassionate care for senior citizens</p>
           </div>
-          <div className="elders-service-hero-carousel">
+          {/* <div className="elders-service-hero-carousel">
             <ImageCarousel images={images} />
-          </div>
+          </div> */}
         </div>
       </section>
 

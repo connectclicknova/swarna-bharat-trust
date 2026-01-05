@@ -12,12 +12,10 @@ const FarmersTrainingCenter = () => {
   ]
 
   const galleryImages = [
-    '/images/farmers1.jpg',
-    '/images/farmers2.jpg',
-    '/images/farmers3.jpg',
-    '/images/farmers1.jpg',
-    '/images/farmers2.jpg',
-    '/images/farmers3.jpg'
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Farmer%20Training/1.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Farmer%20Training/2.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Farmer%20Training/3.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Farmer%20Training/4.jpeg',
   ]
 
   return (
@@ -28,9 +26,9 @@ const FarmersTrainingCenter = () => {
             <h1>Farmers Training Center</h1>
             <p>Empowering farmers with modern agricultural techniques and sustainable practices</p>
           </div>
-          <div className="ftc-service-hero-carousel">
+          {/* <div className="ftc-service-hero-carousel">
             <ImageCarousel images={images} />
-          </div>
+          </div> */}
         </div>
       </section>
 

@@ -13,12 +13,13 @@ const ResidentialBridgeSchool = () => {
   ]
 
   const galleryImages = [
-    '/images/bridge1.jpg',
-    '/images/bridge2.jpg',
-    '/images/bridge3.jpg',
-    '/images/bridge4.jpg',
-    '/images/bridge1.jpg',
-    '/images/bridge2.jpg'
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/1.jpeg?updatedAt=1767621063032',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/2.jpeg?updatedAt=1767621062999',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/3.jpeg?updatedAt=1767621063375',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/4.jpeg?updatedAt=1767621063032',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/5.jpeg?updatedAt=1767621062999',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/6.jpeg?updatedAt=1767621063375',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/7.jpeg?updatedAt=1767621063375'
   ]
 
   return (
@@ -29,9 +30,9 @@ const ResidentialBridgeSchool = () => {
             <h1>Residential Bridge School</h1>
             <p>Providing education, shelter, and support to underprivileged children</p>
           </div>
-          <div className="rbs-service-hero-carousel">
+          {/* <div className="rbs-service-hero-carousel">
             <ImageCarousel images={images} />
-          </div>
+          </div> */}
         </div>
       </section>
 

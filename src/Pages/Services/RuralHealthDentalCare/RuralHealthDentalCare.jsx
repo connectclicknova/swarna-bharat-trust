@@ -29,9 +29,9 @@ const RuralHealthDentalCare = () => {
             <h1>Rural Health & Dental Care</h1>
             <p>Bringing quality healthcare and dental services to rural communities</p>
           </div>
-          <div className="rhdc-service-hero-carousel">
+          {/* <div className="rhdc-service-hero-carousel">
             <ImageCarousel images={images} />
-          </div>
+          </div> */}
         </div>
       </section>
 

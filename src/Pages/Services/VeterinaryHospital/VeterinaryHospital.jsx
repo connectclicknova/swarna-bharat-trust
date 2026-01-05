@@ -12,12 +12,8 @@ const VeterinaryHospital = () => {
   ]
 
   const galleryImages = [
-    '/images/vet1.jpg',
-    '/images/vet2.jpg',
-    '/images/vet3.jpg',
-    '/images/vet1.jpg',
-    '/images/vet2.jpg',
-    '/images/vet3.jpg'
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Veternity%20Hospital/1.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Veternity%20Hospital/2.jpeg',
   ]
 
   return (
@@ -28,9 +24,9 @@ const VeterinaryHospital = () => {
             <h1>Veterinary Hospital</h1>
             <p>Comprehensive animal healthcare services for livestock and pets</p>
           </div>
-          <div className="vet-service-hero-carousel">
+          {/* <div className="vet-service-hero-carousel">
             <ImageCarousel images={images} />
-          </div>
+          </div> */}
         </div>
       </section>
 
