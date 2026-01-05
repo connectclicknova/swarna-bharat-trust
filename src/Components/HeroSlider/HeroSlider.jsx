@@ -2,32 +2,67 @@ import React, { useState, useEffect } from 'react'
 import './HeroSlider.css'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
-const HeroSlider = () => {
-  const [currentSlide, setCurrentSlide] = useState(0)
-
-  const slides = [
+const slides = [
     {
-      title: 'Empowering Rural Communities',
-      subtitle: 'Building a Brighter Future Together',
-      description: 'Dedicated to transforming lives through education, healthcare, and sustainable development initiatives.',
-      image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1920&h=800&fit=crop',
+      title: 'Swarna Bharathi Vidyamandir',
+      subtitle: 'Nurturing Young Minds for a Brighter Future',
+      description: 'Providing quality education with comprehensive programs that focus on holistic development and academic excellence.',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/Desktop/entrance.png',
+      cta: 'Explore Education'
+    },
+    {
+      title: 'SIRED - Rural Entrepreneurship',
+      subtitle: 'Empowering Communities Through Innovation',
+      description: 'Creating opportunities for rural communities through entrepreneurship development and skill-based training programs.',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/sired.png',
       cta: 'Learn More'
     },
     {
-      title: 'Quality Education for All',
-      subtitle: 'Nurturing Young Minds',
-      description: 'Providing comprehensive educational programs from primary to skill development for a better tomorrow.',
-      image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1920&h=800&fit=crop',
-      cta: 'Explore Programs'
+      title: 'SOMA - Skill Development',
+      subtitle: 'Building Skills for Tomorrow',
+      description: 'Technical training and professional development programs to equip youth with industry-relevant skills for career growth.',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/soma.png',
+      cta: 'View Programs'
     },
     {
-      title: 'Healthcare & Wellness',
-      subtitle: 'Care That Reaches Everyone',
-      description: 'Delivering essential healthcare services including eye care, veterinary care, and dental services to rural communities.',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920&h=800&fit=crop',
+      title: 'Compassionate Elder Care',
+      subtitle: 'Dignified Living for Our Seniors',
+      description: 'Providing comfortable living and comprehensive care for elderly members with respect, love, and professional support.',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Elder%20Home/1.jpeg',
       cta: 'Our Services'
+    },
+    {
+      title: 'Farmers Training Center',
+      subtitle: 'Advancing Agricultural Excellence',
+      description: 'Supporting farmers with modern farming techniques, sustainable practices, and comprehensive agricultural training.',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Farmer%20Training/2.jpeg',
+      cta: 'Discover More'
+    },
+    {
+      title: 'LV Prasad Eye Institute',
+      subtitle: 'Vision Care for All',
+      description: 'Delivering world-class eye care services and vision correction to rural communities with advanced technology.',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Eye%20Hospital/4.jpeg',
+      cta: 'Healthcare Services'
+    },
+    {
+      title: 'Veterinary Hospital',
+      subtitle: 'Caring for Animal Health',
+      description: 'Comprehensive veterinary care ensuring the health and wellbeing of livestock and animals in our community.',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Veternity%20Hospital/1.jpeg',
+      cta: 'Animal Care'
+    },
+    {
+      title: 'Rural Health & Dental Care',
+      subtitle: 'Accessible Healthcare for Everyone',
+      description: 'Providing essential health and dental services to rural communities, ensuring quality care reaches every doorstep.',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/rd.jpeg',
+      cta: 'Health Services'
     }
-  ]
+]
+
+const HeroSlider = () => {
+  const [currentSlide, setCurrentSlide] = useState(0)
 
   useEffect(() => {
     const timer = setInterval(() => {
