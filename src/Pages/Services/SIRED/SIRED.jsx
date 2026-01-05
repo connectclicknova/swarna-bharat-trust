@@ -1,10 +1,20 @@
 import React from 'react'
 import './SIRED.css'
 import ImageCarousel from '../../../Components/ImageCarousel/ImageCarousel'
+import PinterestGallery from '../../../Components/PinterestGallery/PinterestGallery'
 import { Briefcase, TrendingUp, Users, Lightbulb, Target, Award } from 'lucide-react'
 
 const SIRED = () => {
   const images = [
+    '/images/sired1.jpg',
+    '/images/sired2.jpg',
+    '/images/sired3.jpg'
+  ]
+
+  const galleryImages = [
+    '/images/sired1.jpg',
+    '/images/sired2.jpg',
+    '/images/sired3.jpg',
     '/images/sired1.jpg',
     '/images/sired2.jpg',
     '/images/sired3.jpg'
@@ -97,6 +107,8 @@ const SIRED = () => {
           </div>
         </div>
       </section>
+
+      <PinterestGallery images={galleryImages} title="SIRED Gallery" />
     </div>
   )
 }

@@ -1,10 +1,20 @@
 import React from 'react'
 import './FarmersTrainingCenter.css'
 import ImageCarousel from '../../../Components/ImageCarousel/ImageCarousel'
+import PinterestGallery from '../../../Components/PinterestGallery/PinterestGallery'
 import { Sprout, TrendingUp, Users, Lightbulb, Award, Leaf } from 'lucide-react'
 
 const FarmersTrainingCenter = () => {
   const images = [
+    '/images/farmers1.jpg',
+    '/images/farmers2.jpg',
+    '/images/farmers3.jpg'
+  ]
+
+  const galleryImages = [
+    '/images/farmers1.jpg',
+    '/images/farmers2.jpg',
+    '/images/farmers3.jpg',
     '/images/farmers1.jpg',
     '/images/farmers2.jpg',
     '/images/farmers3.jpg'
@@ -99,6 +109,8 @@ const FarmersTrainingCenter = () => {
           </div>
         </div>
       </section>
+
+      <PinterestGallery images={galleryImages} title="Training Center Gallery" />
     </div>
   )
 }

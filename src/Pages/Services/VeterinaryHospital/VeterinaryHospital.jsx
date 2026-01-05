@@ -1,10 +1,20 @@
 import React from 'react'
 import './VeterinaryHospital.css'
 import ImageCarousel from '../../../Components/ImageCarousel/ImageCarousel'
+import PinterestGallery from '../../../Components/PinterestGallery/PinterestGallery'
 import { Heart, Users, Award, Shield, Stethoscope, TrendingUp } from 'lucide-react'
 
 const VeterinaryHospital = () => {
   const images = [
+    '/images/vet1.jpg',
+    '/images/vet2.jpg',
+    '/images/vet3.jpg'
+  ]
+
+  const galleryImages = [
+    '/images/vet1.jpg',
+    '/images/vet2.jpg',
+    '/images/vet3.jpg',
     '/images/vet1.jpg',
     '/images/vet2.jpg',
     '/images/vet3.jpg'
@@ -99,6 +109,8 @@ const VeterinaryHospital = () => {
           </div>
         </div>
       </section>
+
+      <PinterestGallery images={galleryImages} title="Veterinary Hospital Gallery" />
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import './ResidentialBridgeSchool.css'
 import ImageCarousel from '../../../Components/ImageCarousel/ImageCarousel'
+import PinterestGallery from '../../../Components/PinterestGallery/PinterestGallery'
 import { School, Home, Users, BookOpen, Heart, Utensils } from 'lucide-react'
 
 const ResidentialBridgeSchool = () => {
@@ -9,6 +10,15 @@ const ResidentialBridgeSchool = () => {
     '/images/bridge2.jpg',
     '/images/bridge3.jpg',
     '/images/bridge4.jpg'
+  ]
+
+  const galleryImages = [
+    '/images/bridge1.jpg',
+    '/images/bridge2.jpg',
+    '/images/bridge3.jpg',
+    '/images/bridge4.jpg',
+    '/images/bridge1.jpg',
+    '/images/bridge2.jpg'
   ]
 
   return (
@@ -98,6 +108,8 @@ const ResidentialBridgeSchool = () => {
           </div>
         </div>
       </section>
+
+      <PinterestGallery images={galleryImages} title="Bridge School Gallery" />
     </div>
   )
 }

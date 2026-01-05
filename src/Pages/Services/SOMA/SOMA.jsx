@@ -1,10 +1,20 @@
 import React from 'react'
 import './SOMA.css'
 import ImageCarousel from '../../../Components/ImageCarousel/ImageCarousel'
+import PinterestGallery from '../../../Components/PinterestGallery/PinterestGallery'
 import { Award, Users, Briefcase, TrendingUp, Target, Zap } from 'lucide-react'
 
 const SOMA = () => {
   const images = [
+    '/images/soma1.jpg',
+    '/images/soma2.jpg',
+    '/images/soma3.jpg'
+  ]
+
+  const galleryImages = [
+    '/images/soma1.jpg',
+    '/images/soma2.jpg',
+    '/images/soma3.jpg',
     '/images/soma1.jpg',
     '/images/soma2.jpg',
     '/images/soma3.jpg'
@@ -99,6 +109,8 @@ const SOMA = () => {
           </div>
         </div>
       </section>
+
+      <PinterestGallery images={galleryImages} title="SOMA Gallery" />
     </div>
   )
 }

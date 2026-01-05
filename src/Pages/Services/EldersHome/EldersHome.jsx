@@ -1,6 +1,7 @@
 import React from 'react'
 import './EldersHome.css'
 import ImageCarousel from '../../../Components/ImageCarousel/ImageCarousel'
+import PinterestGallery from '../../../Components/PinterestGallery/PinterestGallery'
 import { Home, Heart, Users, Activity, Utensils, Shield } from 'lucide-react'
 
 const EldersHome = () => {
@@ -9,6 +10,15 @@ const EldersHome = () => {
     '/images/elders2.jpg',
     '/images/elders3.jpg',
     '/images/elders4.jpg'
+  ]
+
+  const galleryImages = [
+    '/images/elders1.jpg',
+    '/images/elders2.jpg',
+    '/images/elders3.jpg',
+    '/images/elders4.jpg',
+    '/images/elders1.jpg',
+    '/images/elders2.jpg'
   ]
 
   return (
@@ -99,6 +109,8 @@ const EldersHome = () => {
           </div>
         </div>
       </section>
+
+      <PinterestGallery images={galleryImages} title="Elders Home Gallery" />
     </div>
   )
 }

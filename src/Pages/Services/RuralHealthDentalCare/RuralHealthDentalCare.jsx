@@ -1,6 +1,7 @@
 import React from 'react'
 import './RuralHealthDentalCare.css'
 import ImageCarousel from '../../../Components/ImageCarousel/ImageCarousel'
+import PinterestGallery from '../../../Components/PinterestGallery/PinterestGallery'
 import { Heart, Users, Stethoscope, Award, Shield, Activity } from 'lucide-react'
 
 const RuralHealthDentalCare = () => {
@@ -9,6 +10,15 @@ const RuralHealthDentalCare = () => {
     '/images/health2.jpg',
     '/images/health3.jpg',
     '/images/health4.jpg'
+  ]
+
+  const galleryImages = [
+    '/images/health1.jpg',
+    '/images/health2.jpg',
+    '/images/health3.jpg',
+    '/images/health4.jpg',
+    '/images/health1.jpg',
+    '/images/health2.jpg'
   ]
 
   return (
@@ -101,6 +111,8 @@ const RuralHealthDentalCare = () => {
           </div>
         </div>
       </section>
+
+      <PinterestGallery images={galleryImages} title="Health & Dental Care Gallery" />
     </div>
   )
 }

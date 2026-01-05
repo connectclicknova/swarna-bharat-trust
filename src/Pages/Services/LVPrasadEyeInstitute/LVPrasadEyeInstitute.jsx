@@ -1,6 +1,7 @@
 import React from 'react'
 import './LVPrasadEyeInstitute.css'
 import ImageCarousel from '../../../Components/ImageCarousel/ImageCarousel'
+import PinterestGallery from '../../../Components/PinterestGallery/PinterestGallery'
 import { Eye, Heart, Users, Award, Target, Shield } from 'lucide-react'
 
 const LVPrasadEyeInstitute = () => {
@@ -9,6 +10,15 @@ const LVPrasadEyeInstitute = () => {
     '/images/eye2.jpg',
     '/images/eye3.jpg',
     '/images/eye4.jpg'
+  ]
+
+  const galleryImages = [
+    '/images/eye1.jpg',
+    '/images/eye2.jpg',
+    '/images/eye3.jpg',
+    '/images/eye4.jpg',
+    '/images/eye1.jpg',
+    '/images/eye2.jpg'
   ]
 
   return (
@@ -100,6 +110,8 @@ const LVPrasadEyeInstitute = () => {
           </div>
         </div>
       </section>
+
+      <PinterestGallery images={galleryImages} title="Eye Institute Gallery" />
     </div>
   )
 }

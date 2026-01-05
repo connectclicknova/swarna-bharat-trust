@@ -1,6 +1,7 @@
 import React from 'react'
 import './SwarnaBharathiVidyamandir.css'
 import ImageCarousel from '../../../Components/ImageCarousel/ImageCarousel'
+import PinterestGallery from '../../../Components/PinterestGallery/PinterestGallery'
 import { GraduationCap, Users, BookOpen, Award, Target, Heart } from 'lucide-react'
 
 const SwarnaBharathiVidyamandir = () => {
@@ -8,6 +9,15 @@ const SwarnaBharathiVidyamandir = () => {
     '/images/school1.jpg',
     '/images/school2.jpg',
     '/images/school3.jpg'
+  ]
+
+  const galleryImages = [
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/2.jpeg?updatedAt=1767621063032',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/4.jpeg?updatedAt=1767621062999',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/1.jpeg?updatedAt=1767621063375',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/2.jpeg?updatedAt=1767621063032',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/4.jpeg?updatedAt=1767621062999',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/1.jpeg?updatedAt=1767621063375'
   ]
 
   return (
@@ -96,6 +106,8 @@ const SwarnaBharathiVidyamandir = () => {
           </div>
         </div>
       </section>
+
+      <PinterestGallery images={galleryImages} title="Our School Gallery" />
     </div>
   )
 }
