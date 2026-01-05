@@ -133,6 +133,307 @@
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
+/* Managing Trustee Section */
+.managing-trustee-section {
+    padding: 100px 0;
+    background: linear-gradient(to bottom, #ffffff 0%, #faf8f7 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.managing-trustee-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(33, 34, 190, 0.05) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+/* Trustee Header */
+.trustee-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px;
+}
+
+.trustee-header .section-label {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2122be;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+    position: relative;
+    padding: 0 24px;
+}
+
+.trustee-header .section-label::before,
+.trustee-header .section-label::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 16px;
+    height: 2px;
+    background: #2122be;
+}
+
+.trustee-header .section-label::before {
+    left: 0;
+}
+
+.trustee-header .section-label::after {
+    right: 0;
+}
+
+.trustee-header .section-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+/* Main Content */
+.trustee-content {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 60px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trustee-image-wrapper {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 50px rgba(33, 34, 190, 0.15);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.trustee-image-wrapper:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 60px rgba(33, 34, 190, 0.25);
+}
+
+.trustee-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+.trustee-info {
+    padding: 20px 0;
+}
+
+.trustee-name {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2122be;
+    margin: 0 0 12px 0;
+    line-height: 1.2;
+}
+
+.trustee-title {
+    font-size: 18px;
+    color: #666;
+    font-weight: 600;
+    margin: 0 0 24px 0;
+}
+
+.trustee-description {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+}
+
+/* Subsection Titles */
+.subsection-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: center;
+    margin: 0 0 40px 0;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.subsection-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #2122be 0%, #5456d6 100%);
+    border-radius: 2px;
+}
+
+/* Roles Section */
+.trustee-roles-section {
+    margin-bottom: 80px;
+}
+
+.roles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.role-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.role-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(33, 34, 190, 0.15);
+    border-color: #2122be20;
+}
+
+.role-icon-wrapper {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #2122be15 0%, #2122be05 100%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2122be;
+    transition: all 0.3s ease;
+}
+
+.role-card:hover .role-icon-wrapper {
+    background: linear-gradient(135deg, #2122be 0%, #5456d6 100%);
+    color: white;
+    transform: rotate(5deg) scale(1.05);
+}
+
+.role-content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 6px 0;
+}
+
+.role-content p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Initiatives Section */
+.trustee-initiatives-section {
+    margin-bottom: 80px;
+}
+
+.initiatives-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.initiative-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.initiative-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 45px rgba(33, 34, 190, 0.15);
+    border-color: #2122be20;
+}
+
+.initiative-icon {
+    font-size: 40px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.initiative-card h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2122be;
+    margin: 0 0 12px 0;
+}
+
+.initiative-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+    margin: 0;
+}
+
+/* Recognition Section */
+.trustee-recognition-section {
+    margin-bottom: 40px;
+}
+
+.recognition-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.recognition-card {
+    background: linear-gradient(135deg, #2122be 0%, #5456d6 100%);
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 10px 35px rgba(33, 34, 190, 0.2);
+    transition: all 0.3s ease;
+}
+
+.recognition-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 45px rgba(33, 34, 190, 0.35);
+}
+
+.recognition-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.recognition-card p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0;
+}
+
 /* Trust Section */
 .trust-section {
     padding: 100px 0;
@@ -420,13 +721,28 @@
 
 /* Responsive Design */
 @media (max-width: 992px) {
-    .founder-content {
+    .founder-content,
+    .trustee-content {
         grid-template-columns: 1fr;
         gap: 50px;
     }
 
-    .founder-image img {
+    .founder-image img,
+    .trustee-image {
         height: 500px;
+    }
+
+    .roles-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .initiatives-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .recognition-grid {
+        grid-template-columns: 1fr;
     }
 
     .about-hero-content h1 {
@@ -472,17 +788,34 @@
     }
 
     .founder-section,
+    .managing-trustee-section,
     .trust-section {
         padding: 60px 0;
     }
 
     .founder-text h2,
+    .trustee-name,
     .trust-header h2 {
         font-size: 32px;
     }
 
-    .founder-image img {
+    .trustee-header .section-title,
+    .subsection-title {
+        font-size: 28px;
+    }
+
+    .founder-image img,
+    .trustee-image {
         height: 400px;
+    }
+
+    .initiatives-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .initiative-card,
+    .role-card {
+        padding: 25px;
     }
 
     .trust-intro {
@@ -503,5 +836,42 @@
 
     .conclusion-content h3 {
         font-size: 26px;
+    }
+}
+
+@media (max-width: 480px) {
+    .trustee-header .section-title {
+        font-size: 24px;
+    }
+
+    .subsection-title {
+        font-size: 22px;
+    }
+
+    .trustee-name {
+        font-size: 26px;
+    }
+
+    .role-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .role-content h4 {
+        font-size: 16px;
+    }
+
+    .initiative-card h4,
+    .role-content h4 {
+        font-size: 16px;
+    }
+
+    .initiative-card p,
+    .role-content p {
+        font-size: 13px;
+    }
+
+    .recognition-card p {
+        font-size: 14px;
     }
 }

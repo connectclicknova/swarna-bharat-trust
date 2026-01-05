@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import FounderImage from '../../assets/venkaiah-naidu.jpg'
 import Counter from '../../Components/Counter/Counter'
 import TeamMembers from '../../Components/TeamMembers/TeamMembers'
+import DeepaMam from '../../assets/deepa-mam.png'
 
 const About = () => {
   return (
@@ -39,6 +40,121 @@ const About = () => {
             </div>
             <div className="founder-image">
               <img src={FounderImage} alt="Shri M. Venkaiah Naidu" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Managing Trustee Section */}
+      <section className="managing-trustee-section">
+        <div className="container">
+          {/* Section Header */}
+          <div className="trustee-header">
+            <span className="section-label">Our Leadership</span>
+            <h2 className="section-title">Managing Trustee</h2>
+          </div>
+
+          {/* Main Content */}
+          <div className="trustee-content">
+            <div className="trustee-image-wrapper">
+              <img src={DeepaMam} alt="Smt. Deepa Venkat" className="trustee-image" />
+            </div>
+            <div className="trustee-info">
+              <h3 className="trustee-name">Smt. Deepa Venkat</h3>
+              <p className="trustee-title">Managing Trustee, Swarna Bharat Trust</p>
+              <p className="trustee-description">
+                Deepa Venkat is the Managing Trustee of the Swarna Bharat Trust, a non-profit organization founded by her father, former Indian Vice President M. Venkaiah Naidu, focusing on rural development, education (like Akshara Vidyalaya), and healthcare in Andhra Pradesh. She is known for her philanthropic work, leading vocational training, rural healthcare initiatives, and facilitating community support, including reuniting a missing boy with his family, earning her awards for rural development.
+              </p>
+            </div>
+          </div>
+
+          {/* Key Roles */}
+          <div className="trustee-roles-section">
+            <h3 className="subsection-title">Key Roles & Affiliations</h3>
+            <div className="roles-grid">
+              <div className="role-card">
+                <div className="role-icon-wrapper">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                  </svg>
+                </div>
+                <div className="role-content">
+                  <h4>Managing Trustee</h4>
+                  <p>Swarna Bharat Trust (SBT)</p>
+                </div>
+              </div>
+              <div className="role-card">
+                <div className="role-icon-wrapper">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                  </svg>
+                </div>
+                <div className="role-content">
+                  <h4>Correspondent</h4>
+                  <p>Akshara Vidyalaya (CBSE School)</p>
+                </div>
+              </div>
+              <div className="role-card">
+                <div className="role-icon-wrapper">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                    <circle cx="9" cy="7" r="4"/>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                  </svg>
+                </div>
+                <div className="role-content">
+                  <h4>Daughter of</h4>
+                  <p>M. Venkaiah Naidu (Former Vice President of India)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Initiatives */}
+          <div className="trustee-initiatives-section">
+            <h3 className="subsection-title">Swarna Bharat Trust Initiatives</h3>
+            <div className="initiatives-grid">
+              <div className="initiative-card">
+                <div className="initiative-icon">📚</div>
+                <h4>Education</h4>
+                <p>Runs Akshara Vidyalaya and Swarna Bharati Vidya Mandir, focusing on holistic development and special needs education.</p>
+              </div>
+              <div className="initiative-card">
+                <div className="initiative-icon">🎓</div>
+                <h4>Vocational Training</h4>
+                <p>Offers job-oriented training in partnership with organizations like GMR Varalakshmi Foundation.</p>
+              </div>
+              <div className="initiative-card">
+                <div className="initiative-icon">🏥</div>
+                <h4>Rural Healthcare</h4>
+                <p>Manages rural healthcare centers, dental services, and eye care through L.V. Prasad Eye Institute.</p>
+              </div>
+              <div className="initiative-card">
+                <div className="initiative-icon">🤝</div>
+                <h4>Community Support</h4>
+                <p>Provides financial aid, assistance during crises, and facilitates reconnection of lost individuals with families.</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Recognition */}
+          <div className="trustee-recognition-section">
+            <h3 className="subsection-title">Recognition & Awards</h3>
+            <div className="recognition-grid">
+              <div className="recognition-card">
+                <div className="recognition-icon">🏆</div>
+                <p>Nayudamma Rural Development Award</p>
+              </div>
+              <div className="recognition-card">
+                <div className="recognition-icon">🏆</div>
+                <p>TeluguOne Spoorthi Award</p>
+              </div>
+              <div className="recognition-card">
+                <div className="recognition-icon">🏆</div>
+                <p>Actively promotes National Unity Day and rural development</p>
+              </div>
             </div>
           </div>
         </div>
