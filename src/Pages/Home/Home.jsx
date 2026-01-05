@@ -3,6 +3,7 @@ import './Home.css'
 import HeroSlider from '../../Components/HeroSlider/HeroSlider'
 import HomeServices from '../../Components/HomeServices/HomeServices'
 import Counter from '../../Components/Counter/Counter'
+import AwardsRecognitions from '../../Components/AwardsRecognitions/AwardsRecognitions'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <HeroSlider />
       <Counter />
       <HomeServices />
+      <AwardsRecognitions />
     </>
   )
 }

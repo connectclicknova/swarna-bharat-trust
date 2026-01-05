@@ -223,6 +223,7 @@
     padding: 0;
     transition: all 0.3s ease;
     position: relative;
+    text-decoration: none;
 
     .arrow-icon {
         transition: transform 0.3s ease;

@@ -10,7 +10,7 @@ const HomeServices = () => {
       title: 'Swarna Bharathi Vidyamandir',
       description: 'Providing quality education and nurturing young minds for a brighter future.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/Desktop/entrance.png',
       link: '/services/swarna-bharathi-vidyamandir'
     },
     {
@@ -18,7 +18,7 @@ const HomeServices = () => {
       title: 'Residential Bridge School',
       description: 'Bridging educational gaps through comprehensive residential programs.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&h=400&fit=crop',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Vidya%20Mandir/1.jpeg?updatedAt=1767621063375',
       link: '/services/residential-bridge-school'
     },
     {
@@ -26,7 +26,7 @@ const HomeServices = () => {
       title: 'SIRED - Rural Entrepreneurship',
       description: 'Empowering rural communities through entrepreneurship development.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&h=400&fit=crop',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/sired.png',
       link: '/services/sired'
     },
     {
@@ -34,7 +34,7 @@ const HomeServices = () => {
       title: 'SOMA - Skill Development',
       description: 'Building technical expertise and professional skills for career growth.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/soma.png',
       link: '/services/soma'
     },
     {
@@ -42,7 +42,7 @@ const HomeServices = () => {
       title: 'Elders Home',
       description: 'Providing compassionate care and comfortable living for elderly members.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=600&h=400&fit=crop',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Elder%20Home/1.jpeg',
       link: '/services/elders-home'
     },
     {
@@ -50,7 +50,7 @@ const HomeServices = () => {
       title: 'Farmers Training Center',
       description: 'Supporting agriculture through modern farming techniques and training.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Farmer%20Training/2.jpeg',
       link: '/services/farmers-training-center'
     },
     {
@@ -58,7 +58,7 @@ const HomeServices = () => {
       title: 'LV Prasad Eye Institute',
       description: 'Delivering world-class eye care services and vision correction.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1516841273335-e39b37888115?w=600&h=400&fit=crop',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Eye%20Hospital/4.jpeg',
       link: '/services/lv-prasad-eye-institute'
     },
     {
@@ -66,7 +66,7 @@ const HomeServices = () => {
       title: 'Veterinary Hospital',
       description: 'Comprehensive animal health care for animal wellbeing.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1548681528-6a5c45b66b42?w=600&h=400&fit=crop',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Veternity%20Hospital/1.jpeg',
       link: '/services/veterinary-hospital'
     },
     {
@@ -74,7 +74,7 @@ const HomeServices = () => {
       title: 'Rural Health & Dental Care',
       description: 'Accessible healthcare and dental services for rural communities.',
       color: '#ff6318',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop',
+      image: 'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/rd.jpeg',
       link: '/services/rural-health-dental-care'
     }
   ]
