@@ -12,12 +12,38 @@ const SOMA = () => {
   ]
 
   const galleryImages = [
-    '/images/soma1.jpg',
-    '/images/soma2.jpg',
-    '/images/soma3.jpg',
-    '/images/soma1.jpg',
-    '/images/soma2.jpg',
-    '/images/soma3.jpg'
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/1.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/2.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/3.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/4.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/5.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/6.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/7.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/8.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/9.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/10.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/11.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/12.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/13.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/14.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/15.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/16.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/17.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/18.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/19.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/20.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/21.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/22.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/23.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/24.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/25.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/26.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/27.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/28.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/29.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/30.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/31.jpeg',
+    'https://ik.imagekit.io/u58ih6wp1/Swarna%20Bharat/Soma/32.jpeg'
   ]
 
   return (
@@ -28,9 +54,9 @@ const SOMA = () => {
             <h1>SOMA - Skill Development Center</h1>
             <p>Building careers through comprehensive skill development and vocational training</p>
           </div>
-          <div className="soma-service-hero-carousel">
+          {/* <div className="soma-service-hero-carousel">
             <ImageCarousel images={images} />
-          </div>
+          </div> */}
         </div>
       </section>
 
