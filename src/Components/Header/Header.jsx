@@ -1,13 +1,14 @@
 import React from 'react'
 import './Header.css'
 import logoVideo from '../../assets/logo.mp4'
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink, Link, useNavigate } from 'react-router-dom'
 
 const Header = () => {
+    const navigate = useNavigate();
   return (
     <div className="sb-header-container">
         <div className="container h-100 d-flex justify-content-between align-items-center">
-            <div className="header-video-container">
+            <div className="header-video-container" onClick={()=> navigate('/')} style={{cursor: 'pointer'}}>
                 <video className="logo-video" autoPlay muted loop playsInline>
                     <source src={logoVideo} type="video/mp4" />
                 </video>
@@ -34,21 +35,7 @@ const Header = () => {
                         <Link to="/services/rural-health-dental-care">Rural Health & Dental Care</Link>
                     </div>
                 </div>
-                <div className="custom-dropdown">
-                    <button className="dropdown-btn">
-                        Campus
-                        <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                        </svg>
-                    </button>
-                    <div className="dropdown-content">
-                        <a href="#">Swarna Bharat Trust</a>
-                        <a href="#">Nellore</a>
-                        <a href="#">Vijayawada</a>
-                        <a href="#">Hyderabad</a>
-                        <a href="#">CSR</a>
-                    </div>
-                </div>
+                <NavLink to="/campus">Campus</NavLink>
                 <div className="custom-dropdown">
                     <button className="dropdown-btn">
                         Gallery
@@ -93,13 +80,11 @@ const Header = () => {
 
                     {/* Campus Section */}
                     <div className="mega-menu-section">
-                        <h6 className="mega-menu-title">Campus Locations</h6>
+                        <h6 className="mega-menu-title">Campus</h6>
                         <ul className="mega-menu-list">
-                            <li><a href="#">Swarna Bharat Trust</a></li>
-                            <li><a href="#">Nellore</a></li>
-                            <li><a href="#">Vijayawada</a></li>
-                            <li><a href="#">Hyderabad</a></li>
-                            <li><a href="#">CSR Initiatives</a></li>
+                            <li><NavLink to="/campus">All Campuses</NavLink></li>
+                            <li><Link to="/campus/vijayawada">Vijayawada Chapter</Link></li>
+                            <li><Link to="/campus/hyderabad">Hyderabad Chapter</Link></li>
                         </ul>
                     </div>
 

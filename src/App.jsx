@@ -20,8 +20,9 @@ import FarmersTrainingCenter from './Pages/Services/FarmersTrainingCenter/Farmer
 import LVPrasadEyeInstitute from './Pages/Services/LVPrasadEyeInstitute/LVPrasadEyeInstitute'
 import VeterinaryHospital from './Pages/Services/VeterinaryHospital/VeterinaryHospital'
 import RuralHealthDentalCare from './Pages/Services/RuralHealthDentalCare/RuralHealthDentalCare'
-
-// Import all 9 service pages
+import Campus from './Pages/Campus/Campus'
+import VijayawadaChapter from './Pages/Campus/VijayawadaChapter'
+import HyderabadChapter from './Pages/Campus/HyderabadChapter'
 
 
 const AppContent = () => {
@@ -59,6 +60,11 @@ const AppContent = () => {
         <Route path='/image-gallery' element={<ImageGallery />} />
         <Route path='/video-gallery' element={<VideoGallery />} />
         <Route path='/founder' element={<FounderPage />} />
+        
+        {/* Campus Pages */}
+        <Route path='/campus' element={<Campus />} />
+        <Route path='/campus/vijayawada' element={<VijayawadaChapter />} />
+        <Route path='/campus/hyderabad' element={<HyderabadChapter />} />
         
         {/* Service Pages */}
         <Route path='/services/swarna-bharathi-vidyamandir' element={<SwarnaBharathiVidyamandir />} />

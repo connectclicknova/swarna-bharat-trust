@@ -1,0 +1,654 @@
+/* Vijayawada Hero */
+.vij-hero {
+    min-height: 600px;
+    background: linear-gradient(135deg, #372035 0%, #5a3a58 50%, #ff6318 100%);
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.vij-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 30% 50%, rgba(255, 99, 24, 0.2), transparent 50%),
+                radial-gradient(circle at 70% 50%, rgba(55, 32, 53, 0.3), transparent 50%);
+}
+
+.vij-hero-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    max-width: 900px;
+}
+
+.vij-hero-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 10px 28px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.vij-hero h1 {
+    font-size: 56px;
+    font-weight: 800;
+    margin: 0 0 20px 0;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.vij-hero p {
+    font-size: 22px;
+    opacity: 0.95;
+    margin: 0 0 30px 0;
+}
+
+.vij-hero-meta {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Story Section */
+.vij-story-section {
+    padding: 100px 0;
+    background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+}
+
+.story-highlight-box {
+    background: white;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid #ff6318;
+}
+
+.story-highlight-box h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #372035;
+    margin: 0 0 25px 0;
+}
+
+.story-lead {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #555;
+    margin: 0 0 20px 0;
+}
+
+.story-highlight-box p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #666;
+    margin: 0 0 15px 0;
+}
+
+.story-highlight-box strong {
+    color: #ff6318;
+    font-weight: 700;
+}
+
+/* Training Centers Section */
+.vij-centers-section {
+    padding: 100px 0;
+    background: #ffffff;
+}
+
+.section-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #372035;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+.section-subtitle {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 60px;
+}
+
+.vij-centers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.vij-center-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.vij-center-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15);
+    border-color: #ff6318;
+}
+
+.vij-center-card.featured {
+    grid-column: 1 / -1;
+    background: linear-gradient(135deg, #fff5f0 0%, #ffffff 100%);
+}
+
+.center-card-header {
+    padding: 40px 40px 30px;
+    background: linear-gradient(135deg, #f8f9fa, #ffffff);
+}
+
+.center-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.center-icon.pharma {
+    background: linear-gradient(135deg, #ff6318, #ff8547);
+}
+
+.center-icon.skill {
+    background: linear-gradient(135deg, #372035, #5a3a58);
+}
+
+.center-icon.vocational {
+    background: linear-gradient(135deg, #4CAF50, #66BB6A);
+}
+
+.center-icon.computer {
+    background: linear-gradient(135deg, #2196F3, #42A5F5);
+}
+
+.center-card-header h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #372035;
+    margin: 0;
+}
+
+.center-card-body {
+    padding: 0 40px 40px;
+}
+
+.center-description {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #666;
+    margin: 0 0 25px 0;
+}
+
+.center-partnership {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 15px;
+    color: #555;
+    margin: 0 0 25px 0;
+    border-left: 4px solid #ff6318;
+}
+
+.center-partnership strong {
+    color: #372035;
+}
+
+.center-courses h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #372035;
+    margin: 0 0 15px 0;
+}
+
+.center-courses ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.center-courses li {
+    padding: 12px 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #555;
+    position: relative;
+    padding-left: 35px;
+}
+
+.center-courses li::before {
+    content: '✓';
+    position: absolute;
+    left: 12px;
+    color: #ff6318;
+    font-weight: 700;
+}
+
+/* Healthcare Section */
+.vij-healthcare-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #f0f8ff, #ffffff);
+}
+
+.vij-healthcare-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.healthcare-content h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #372035;
+    margin: 0 0 10px 0;
+}
+
+.healthcare-content h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff6318;
+    margin: 0 0 20px 0;
+}
+
+.healthcare-partnership {
+    font-size: 16px;
+    color: #666;
+    margin: 0 0 20px 0;
+}
+
+.healthcare-partnership strong {
+    color: #372035;
+}
+
+.healthcare-content > p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #666;
+    margin: 0 0 30px 0;
+}
+
+.healthcare-services h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #372035;
+    margin: 0 0 20px 0;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.service-item:hover {
+    background: #ff6318;
+    color: white;
+    transform: translateX(5px);
+}
+
+.service-item svg {
+    color: #ff6318;
+    flex-shrink: 0;
+}
+
+.service-item:hover svg {
+    color: white;
+}
+
+.healthcare-stats-card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #372035, #5a3a58);
+    border-radius: 15px;
+    color: white;
+}
+
+.stat-number {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.stat-label {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* Agriculture Section */
+.vij-agriculture-section {
+    padding: 100px 0;
+    background: #ffffff;
+}
+
+.vij-agriculture-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.agriculture-card {
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.agriculture-card:hover {
+    border-color: #ff6318;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15);
+}
+
+.agriculture-icon {
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.agriculture-card h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #372035;
+    margin: 0 0 15px 0;
+}
+
+.agriculture-partnership {
+    font-size: 15px;
+    color: #666;
+    margin: 0 0 25px 0;
+}
+
+.agriculture-partnership strong {
+    color: #ff6318;
+}
+
+.agriculture-card > p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #666;
+    margin: 0 0 25px 0;
+}
+
+.agriculture-programs h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #372035;
+    margin: 0 0 15px 0;
+}
+
+.agriculture-programs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.agriculture-programs li {
+    padding: 10px 0 10px 25px;
+    position: relative;
+    font-size: 15px;
+    color: #555;
+}
+
+.agriculture-programs li::before {
+    content: '🌱';
+    position: absolute;
+    left: 0;
+}
+
+/* Hostel Section */
+.vij-hostel-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #fff5f0, #ffffff);
+}
+
+.vij-hostel-content {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hostel-icon-large {
+    font-size: 80px;
+    margin-bottom: 25px;
+}
+
+.vij-hostel-content h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #372035;
+    margin: 0 0 20px 0;
+}
+
+.hostel-description {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #666;
+    margin: 0 0 50px 0;
+}
+
+.hostel-description strong {
+    color: #ff6318;
+}
+
+.hostel-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.hostel-feature {
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.hostel-feature svg {
+    color: #ff6318;
+    margin-bottom: 20px;
+}
+
+.hostel-feature h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #372035;
+    margin: 0 0 12px 0;
+}
+
+.hostel-feature p {
+    font-size: 15px;
+    color: #666;
+    margin: 0;
+}
+
+/* Impact Section */
+.vij-impact-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #372035, #5a3a58);
+    color: white;
+}
+
+.vij-impact-section h2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+
+.impact-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.impact-stat {
+    text-align: center;
+}
+
+.impact-number {
+    font-size: 56px;
+    font-weight: 800;
+    color: #ff6318;
+    margin-bottom: 15px;
+}
+
+.impact-label {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* CTA Section */
+.vij-cta-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #ff6318, #ff8547);
+    color: white;
+}
+
+.vij-cta-content {
+    text-align: center;
+}
+
+.vij-cta-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.vij-cta-content p {
+    font-size: 20px;
+    margin: 0 0 40px 0;
+    opacity: 0.95;
+}
+
+.vij-cta-button {
+    display: inline-block;
+    padding: 18px 50px;
+    background: white;
+    color: #372035;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.vij-cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    color: #ff6318;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .vij-centers-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .vij-healthcare-grid,
+    .vij-agriculture-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .impact-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hostel-features {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .vij-hero h1 {
+        font-size: 38px;
+    }
+
+    .vij-hero p {
+        font-size: 18px;
+    }
+
+    .story-highlight-box {
+        padding: 40px 30px;
+    }
+
+    .story-highlight-box h2 {
+        font-size: 32px;
+    }
+
+    .section-title {
+        font-size: 36px;
+    }
+
+    .center-card-header,
+    .center-card-body {
+        padding: 30px 25px;
+    }
+
+    .center-courses ul {
+        grid-template-columns: 1fr;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .impact-stats-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
