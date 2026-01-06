@@ -104,7 +104,7 @@ const VisionObjective = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="objective-icon" style={{ background: `linear-gradient(135deg, ${objective.color}15 0%, ${objective.color}05 100%)` }}>
-                  <div className="icon-wrapper" style={{ color: objective.color }}>
+                  <div  style={{ color: objective.color }}>
                     {objective.icon}
                   </div>
                 </div>

@@ -177,7 +177,7 @@ const AwardsRecognitions = () => {
               
               <div className="award-content">
                 <div className="award-icon" style={{ background: `linear-gradient(135deg, ${award.color}15 0%, ${award.color}05 100%)` }}>
-                  <div className="icon-wrapper" style={{ color: award.color }}>
+                  <div style={{ color: award.color }}>
                     {award.icon}
                   </div>
                 </div>
