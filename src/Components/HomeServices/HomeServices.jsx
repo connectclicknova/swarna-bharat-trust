@@ -91,7 +91,7 @@ const HomeServices = () => {
           </p>
         </div>
 
-        <div className="services-grid">
+        <div className="services-grid home-services-grid">
           {services.map((service, index) => (
             <div 
               key={index} 

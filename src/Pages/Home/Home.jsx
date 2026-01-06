@@ -5,6 +5,7 @@ import HomeServices from '../../Components/HomeServices/HomeServices'
 import Counter from '../../Components/Counter/Counter'
 import AwardsRecognitions from '../../Components/AwardsRecognitions/AwardsRecognitions'
 import VisionObjective from '../../Components/VisionObjective/VisionObjective'
+import Felicitation from '../../Components/Felicitation/Felicitation'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <VisionObjective />
       <HomeServices />
       <AwardsRecognitions />
+      <Felicitation />
     </>
   )
 }
