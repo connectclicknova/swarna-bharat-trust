@@ -111,3 +111,11 @@
         opacity: 0;
     }
 }
+
+/* Mobile Responsive */
+@media (max-width: 767px) {
+    .loader-video-container {
+        width: 300px;
+        height: auto;
+    }
+}

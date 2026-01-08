@@ -82,6 +82,13 @@
     }
 }
 
+/* Force single column on mobile for home-services-grid */
+@media (max-width: 767px) {
+    .services-grid.home-services-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Service Card */
 .service-card {
     background: #ffffff;

@@ -5,6 +5,15 @@ import { NavLink, Link, useNavigate } from 'react-router-dom'
 
 const Header = () => {
     const navigate = useNavigate();
+    
+    const handleMenuClick = () => {
+        const offcanvasElement = document.getElementById('megaMenuModal');
+        const bsOffcanvas = window.bootstrap?.Offcanvas?.getInstance(offcanvasElement);
+        if (bsOffcanvas) {
+            bsOffcanvas.hide();
+        }
+    };
+    
   return (
     <div className="sb-header-container">
         <div className="container h-100 d-flex justify-content-between align-items-center">
@@ -62,19 +71,30 @@ const Header = () => {
             </div>
             <div className="offcanvas-body">
                 <div className="mega-menu-content">
+                    {/* Main Navigation */}
+                    <div className="mega-menu-section">
+                        <h6 className="mega-menu-title">Main Menu</h6>
+                        <ul className="mega-menu-list">
+                            <li><NavLink to="/" onClick={handleMenuClick}>Home</NavLink></li>
+                            <li><NavLink to="/about" onClick={handleMenuClick}>About</NavLink></li>
+                            <li><NavLink to="/campus" onClick={handleMenuClick}>Campus</NavLink></li>
+                            <li><NavLink to="/contact" onClick={handleMenuClick}>Contact</NavLink></li>
+                        </ul>
+                    </div>
+
                     {/* Services Section */}
                     <div className="mega-menu-section">
                         <h6 className="mega-menu-title">Our Services</h6>
                         <ul className="mega-menu-list">
-                            <li><Link to="/services/swarna-bharathi-vidyamandir">Swarna Bharathi Vidyamandir</Link></li>
-                            <li><Link to="/services/residential-bridge-school">Residential Bridge School</Link></li>
-                            <li><Link to="/services/sired">SIRED - Rural Entrepreneurship</Link></li>
-                            <li><Link to="/services/soma">SOMA - Skill Development</Link></li>
-                            <li><Link to="/services/elders-home">Elders Home</Link></li>
-                            <li><Link to="/services/farmers-training-center">Farmers Training Center</Link></li>
-                            <li><Link to="/services/lv-prasad-eye-institute">LV Prasad Eye Institute</Link></li>
-                            <li><Link to="/services/veterinary-hospital">Veterinary Hospital</Link></li>
-                            <li><Link to="/services/rural-health-dental-care">Rural Health & Dental Care</Link></li>
+                            <li><Link to="/services/swarna-bharathi-vidyamandir" onClick={handleMenuClick}>Swarna Bharathi Vidyamandir</Link></li>
+                            <li><Link to="/services/residential-bridge-school" onClick={handleMenuClick}>Residential Bridge School</Link></li>
+                            <li><Link to="/services/sired" onClick={handleMenuClick}>SIRED - Rural Entrepreneurship</Link></li>
+                            <li><Link to="/services/soma" onClick={handleMenuClick}>SOMA - Skill Development</Link></li>
+                            <li><Link to="/services/elders-home" onClick={handleMenuClick}>Elders Home</Link></li>
+                            <li><Link to="/services/farmers-training-center" onClick={handleMenuClick}>Farmers Training Center</Link></li>
+                            <li><Link to="/services/lv-prasad-eye-institute" onClick={handleMenuClick}>LV Prasad Eye Institute</Link></li>
+                            <li><Link to="/services/veterinary-hospital" onClick={handleMenuClick}>Veterinary Hospital</Link></li>
+                            <li><Link to="/services/rural-health-dental-care" onClick={handleMenuClick}>Rural Health & Dental Care</Link></li>
                         </ul>
                     </div>
 
@@ -82,34 +102,17 @@ const Header = () => {
                     <div className="mega-menu-section">
                         <h6 className="mega-menu-title">Campus</h6>
                         <ul className="mega-menu-list">
-                            <li><NavLink to="/campus">All Campuses</NavLink></li>
-                            <li><Link to="/campus/vijayawada">Vijayawada Chapter</Link></li>
-                            <li><Link to="/campus/hyderabad">Hyderabad Chapter</Link></li>
+                            <li><Link to="/campus/vijayawada" onClick={handleMenuClick}>Vijayawada Chapter</Link></li>
+                            <li><Link to="/campus/hyderabad" onClick={handleMenuClick}>Hyderabad Chapter</Link></li>
                         </ul>
                     </div>
 
-                    {/* About Section */}
+                    {/* Gallery Section */}
                     <div className="mega-menu-section">
-                        <h6 className="mega-menu-title">About</h6>
+                        <h6 className="mega-menu-title">Gallery</h6>
                         <ul className="mega-menu-list">
-                            <li><NavLink to="/about">Our Story</NavLink></li>
-                            <li><a href="#">Mission & Vision</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Awards & Recognition</a></li>
-                            <li><a href="#">Careers</a></li>
-                        </ul>
-                    </div>
-
-                    {/* Quick Links Section */}
-                    <div className="mega-menu-section">
-                        <h6 className="mega-menu-title">Quick Links</h6>
-                        <ul className="mega-menu-list">
-                            <li><NavLink to="/">Home</NavLink></li>
-                            <li><NavLink to="/contact">Contact Us</NavLink></li>
-                            <li><NavLink to="/image-gallery">Photo Gallery</NavLink></li>
-                            <li><NavLink to="/video-gallery">Video Gallery</NavLink></li>
-                            <li><a href="#">Events & News</a></li>
-                            <li><a href="#">Donate</a></li>
+                            <li><Link to="/image-gallery" onClick={handleMenuClick}>Photo Gallery</Link></li>
+                            <li><Link to="/video-gallery" onClick={handleMenuClick}>Video Gallery</Link></li>
                         </ul>
                     </div>
                 </div>

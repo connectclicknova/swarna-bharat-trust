@@ -498,127 +498,111 @@
     margin-bottom: 0;
 }
 
-/* Timeline Section */
-.timeline-section {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 0;
-
-    &.about-tl-section {
-        background: none;
-
-        &::before {
-            top: 0;
-        }
-    }
+/* Story Grid Section */
+.story-grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 30px;
+    margin-top: 60px;
 }
 
-.timeline-section::before {
+.story-card {
+    background: white;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(55, 32, 53, 0.08);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    animation: fadeInUp 0.6s ease-out both;
+    border-left: 4px solid #ff6318;
+}
+
+.story-card:nth-child(1) { animation-delay: 0.1s; }
+.story-card:nth-child(2) { animation-delay: 0.2s; }
+.story-card:nth-child(3) { animation-delay: 0.3s; }
+.story-card:nth-child(4) { animation-delay: 0.4s; }
+.story-card:nth-child(5) { animation-delay: 0.5s; }
+.story-card:nth-child(6) { animation-delay: 0.6s; }
+.story-card:nth-child(7) { animation-delay: 0.7s; }
+
+.story-card::before {
     content: '';
     position: absolute;
-    left: 50%;
     top: 0;
-    bottom: 0;
-    width: 3px;
-    background: linear-gradient(180deg, #ff6318 0%, #ff9933 50%, #ff6318 100%);
-    transform: translateX(-50%);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 99, 24, 0.03) 0%, rgba(55, 32, 53, 0.03) 100%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
 }
 
-.timeline-item {
-    position: relative;
-    margin-bottom: 80px;
-    animation: fadeInUp 0.8s ease-out both;
+.story-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 40px rgba(255, 99, 24, 0.15);
 }
 
-.timeline-item:nth-child(1) { animation-delay: 0.1s; }
-.timeline-item:nth-child(2) { animation-delay: 0.2s; }
-.timeline-item:nth-child(3) { animation-delay: 0.3s; }
-.timeline-item:nth-child(4) { animation-delay: 0.4s; }
-.timeline-item:nth-child(5) { animation-delay: 0.5s; }
-.timeline-item:nth-child(6) { animation-delay: 0.6s; }
-.timeline-item:nth-child(7) { animation-delay: 0.7s; }
-
-.timeline-marker {
-    position: absolute;
-    left: 50%;
-    top: 40px;
-    width: 20px;
-    height: 20px;
-    background: #ff6318;
-    border: 4px solid #fff;
-    border-radius: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
-    box-shadow: 0 0 0 4px rgba(255, 99, 24, 0.2);
-    transition: all 0.3s ease;
+.story-card:hover::before {
+    opacity: 1;
 }
 
-.timeline-item:hover .timeline-marker {
-    transform: translateX(-50%) scale(1.3);
-    box-shadow: 0 0 0 8px rgba(255, 99, 24, 0.3);
+.story-number {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 800;
+    color: #ff6318;
+    opacity: 0.2;
+    line-height: 1;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
 }
 
-.timeline-content {
-    max-width: 550px;
-
-    &.about-tl-con {
-        padding: 0 !important;
-    }
-}
-
-.timeline-item.left .timeline-content {
-    margin-right: auto;
-    padding-right: 40px;
-}
-
-.timeline-item.right .timeline-content {
-    margin-left: auto;
-    padding-left: 40px;
-}
-
-.timeline-text {
-    background: white;
-    padding: 35px;
-    border-radius: 12px;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
-}
-
-.timeline-item:hover .timeline-text {
-    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
-    transform: translateY(-3px);
-}
-
-.timeline-text h3 {
-    font-size: 26px;
+.story-content h3 {
+    font-size: 24px;
     font-weight: 700;
     color: #372035;
     margin: 0 0 20px 0;
-    position: relative;
-    padding-bottom: 12px;
+    line-height: 1.3;
 }
 
-.timeline-text h3::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 60px;
-    height: 3px;
-    background: #ff6318;
-    border-radius: 3px;
-}
-
-.timeline-text p {
+.story-content p {
     font-size: 15px;
     line-height: 1.8;
     color: #555;
     margin: 0 0 15px 0;
 }
 
-.timeline-text p:last-child {
+.story-content p:last-child {
     margin-bottom: 0;
+}
+
+/* Responsive for Story Grid */
+@media (max-width: 1024px) {
+    .story-grid-section {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .story-card {
+        padding: 30px 25px;
+    }
+
+    .story-number {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .story-content h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .story-content p {
+        font-size: 14px;
+    }
 }
 
 /* Conclusion Section */
